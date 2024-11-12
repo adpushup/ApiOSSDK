@@ -1,0 +1,78 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ApMobileSDK
+@_exported import ApMobileSDK
+import BackgroundTasks
+import Foundation
+import GoogleMobileAds
+import Network
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.lock
+import os
+public protocol ApInitListener {
+  func onInitSuccess()
+  func onInitFailed(initError: ApMobileSDK.ApInitError)
+  func onWarning(initWarning: ApMobileSDK.ApInitError)
+}
+extension ApMobileSDK.ApInitListener {
+  public func onInitSuccess()
+  public func onInitFailed(initError: ApMobileSDK.ApInitError)
+  public func onWarning(initWarning: ApMobileSDK.ApInitError)
+}
+public struct ApInitError {
+}
+public protocol ApRewardedListener {
+  func onAdClicked()
+  func onAdImpression()
+  func onAdShowed()
+  func onAdDismissed()
+  func onAdNotLoadedYet()
+  func onUserEarnedReward(type: Swift.String, amount: Swift.Int)
+  func onComplete()
+  func onError(code: Swift.Int, message: Swift.String)
+  func onWarning(code: Swift.Int, message: Swift.String)
+}
+extension ApMobileSDK.ApRewardedListener {
+  public func onAdClicked()
+  public func onAdImpression()
+  public func onAdShowed()
+  public func onAdDismissed()
+  public func onAdNotLoadedYet()
+  public func onUserEarnedReward(type: Swift.String, amount: Swift.Int)
+  public func onError(code: Swift.Int, message: Swift.String)
+  public func onWarning(code: Swift.Int, message: Swift.String)
+}
+public protocol ApInterstitialListener {
+  func onAdClicked()
+  func onAdImpression()
+  func adPresented()
+  func onAdNotLoadedYet()
+  func onAdFailToPresent(withError error: any Swift.Error)
+  func onComplete()
+  func onError(code: Swift.Int, message: Swift.String)
+  func onAdShowedFullScreenContent()
+  func onAdDismissed()
+}
+extension ApMobileSDK.ApInterstitialListener {
+  public func onAdClicked()
+  public func onAdImpression()
+  public func adPresented()
+  public func onAdNotLoadedYet()
+  public func onAdFailToPresent(withError error: any Swift.Error)
+  public func onError(code: Swift.Int, message: Swift.String)
+  public func onAdShowedFullScreenContent()
+  public func onAdDismissed()
+}
+@_hasMissingDesignatedInitializers public class ApAppSDK {
+  public static func initialise(id: Swift.String, apInitListener: (any ApMobileSDK.ApInitListener)?)
+  public static func initialise(id: Swift.String)
+  public static func showInterstitialAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apInterstitialListener: any ApMobileSDK.ApInterstitialListener)
+  public static func showRewardedAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apRewardedListener: any ApMobileSDK.ApRewardedListener)
+  public static func isRewardedAdReady(apPlacementID: Swift.String) -> Swift.Bool
+  public static func resume()
+  @objc deinit
+}

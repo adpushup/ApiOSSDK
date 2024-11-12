@@ -1,0 +1,6 @@
+framework module ApMobileSDK {
+  umbrella header "ApMobileSDK.h"
+  export *
+
+  module * { export * }
+}
