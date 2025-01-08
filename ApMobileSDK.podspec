@@ -13,5 +13,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/adpushup/ApiOSSDK.git", :tag => "1.0.0" }
   spec.swift_version = "5.0"
   spec.vendored_frameworks = "Sources/ApMobileSDK.xcframework"
-
+  spec.dependency "Google-Mobile-Ads-SDK"
+  spec.frameworks = "GoogleMobileAds"
 end
