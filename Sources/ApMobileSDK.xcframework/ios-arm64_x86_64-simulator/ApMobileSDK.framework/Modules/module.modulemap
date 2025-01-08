@@ -4,3 +4,8 @@ framework module ApMobileSDK {
 
   module * { export * }
 }
+
+module ApMobileSDK.Swift {
+  header "ApMobileSDK-Swift.h"
+  requires objc
+}
