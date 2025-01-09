@@ -17,7 +17,7 @@
 
 Get the following IDs from AdPushup:
 
-- **Ad Manager App Id**: For Android Manifest File.
+- **Ad Manager App Id:** For info.plist file.
 - **Ap App Id**: Used in initialising Ap Mobile SDK.
 - **Ap Placement Ids**: Each Ad Unit has a unique placement Id.
 
@@ -25,12 +25,12 @@ Get the following IDs from AdPushup:
 
 Update info.plist file.
 
-- A `GADApplicationIdentifier` key with a string value of your Ad Manager app ID [found in the Ad Manager UI](https://support.google.com/admanager/answer/1656921) and of the form `ca-app-pub-################~##########`.
-- A `SKAdNetworkItems` key with `SKAdNetworkIdentifier` values for Google (`cstr6suwn9.skadnetwork`) and [select third-party buyers](https://developers.google.com/ad-manager/mobile-ads-sdk/ios/3p-skadnetworks) who have provided these values to Google.
+- A `GADApplicationIdentifier` key with a string value of your **Ad Manager** app ID(Provided by Adpushup) and of the form `ca-app-pub-################~##########`.
+- A `SKAdNetworkItems` key with `SKAdNetworkIdentifier` values.
     
     ```jsx
     <key>GADApplicationIdentifier</key>
-    <string>ca-app-pub-3940256099942544~1458002511</string>
+    <string>ca-app-pub-################~##########</string>
     <key>SKAdNetworkItems</key>
     <array>
       <dict>
@@ -227,6 +227,8 @@ Import SDK in the app.
 
 ## **Initialise the Ap Mobile SDK**
 
+Note : Replace “testId” with the App Id provided by Adpushup.
+
 - Swift example - Add the initialise function in app delegate application function.
     
     ```swift
@@ -283,6 +285,8 @@ Import SDK in the app.
 
 - Interstitial Ad - Interstitial ads are full-screen ads that cover the interface of their host app. They're typically displayed at natural transition points in the flow of an app, such as between activities or during the pause between levels in a game. When an app shows an interstitial ad, the user has the choice to either tap on the ad and continue to its destination or close it and return to the app.
     
+    
+    Note: Replace “testPlacement” with the Ap Placement Id provided by Adpushup.
     
     **Implementation**
     
