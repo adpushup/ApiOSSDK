@@ -15,5 +15,5 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "Sources/ApMobileSDK.xcframework"
   spec.dependency "Google-Mobile-Ads-SDK"
   spec.frameworks = "GoogleMobileAds"
-  
+
 end
