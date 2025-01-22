@@ -1,19 +1,19 @@
-# ApiOSSDK
+# ApMobileSDK
 ## **Get started -**
 
-    Follow this guide to get started with Ap Mobile SDK.
+    **Follow this guide to get started with Ap Mobile SDK.**
 
-    The Ap Mobile SDK provides ad formats like Smart Interstitial and Smart Rewarded Ads.
+    **The Ap Mobile SDK provides ad formats like Smart Interstitial and Smart Rewarded Ads.**
 
-    The following document shows how to integrate Ap Mobile SDK in your iOS App.
+    **The following document shows how to integrate Ap Mobile SDK in your iOS App.**
 
-    You can use our demo apps as a reference project.
+    **You can use our demo apps as a reference project.**
 
 ## **Before you begin -**
 
-    iOS version 14.0 and higher.
+    **iOS version 14.0 and higher.**
 
-    Xcode version 15.3 or higher.
+    **Xcode version 15.3 or higher.**
 
 Get the following IDs from AdPushup:
 
@@ -205,7 +205,7 @@ Update info.plist file.
     ```
     
 
-Import SDK in the app.
+## **Import SDK in the app.**
 
 - Importing from Cocoapods.
     - Just add this command in your Podfile.
@@ -213,6 +213,7 @@ Import SDK in the app.
     - Then from the command line run:
     
           `pod install --repo-update`
+    - If getting Sandbox issue while importing through cocoapods, Go to Build setting of app target and search for "user script sandboxing" if it is "Yes" change it to "No".
     
 
 - Importing from swift package manager.
@@ -229,7 +230,7 @@ Import SDK in the app.
 
 Note : Replace “testId” with the App Id provided by Adpushup.
 
-- Swift example - Add the initialise function in app delegate application function.
+- Swift example - Add the initialise function in App delegate application function.
     
     ```swift
     import ApMobileSDK
@@ -262,7 +263,7 @@ Note : Replace “testId” with the App Id provided by Adpushup.
     }
     ```
     
-- Objective C example -
+- Objective C example - Add the initialise function in App delegate application function.
     
     ```objectivec
     #import "AppDelegate.h"
@@ -317,19 +318,12 @@ Note : Replace “testId” with the App Id provided by Adpushup.
 **Supported Callbacks**
 
 **func** onAdClicked()
-
 **func** onAdImpression()
-
 **func** adPresented()
-
 **func** onAdNotLoadedYet()
-
 **func** onAdFailToPresent(withError error: **any** Error)
-
 **func** onComplete()
-
 **func** onError(code: Int, message: String)
-
 **func** onAdDismissed()
 
 - Rewarded Ad - Ads that reward users for watching short videos and interacting with playable ads and surveys. You should ask the user to view a rewarded ad for a reward. If you want to show rewarded ads between the normal flow of the screens, Please use Rewarded Interstitial Ads instead.
@@ -392,19 +386,11 @@ Note : Replace “testId” with the App Id provided by Adpushup.
     **Supported Callbacks**
     
     **func** onAdClicked()
-    
     **func** onAdImpression()
-    
     **func** onAdShowed()
-    
     **func** onAdDismissed()
-    
     **func** onAdNotLoadedYet()
-    
     **func** onUserEarnedReward(type: String, amount: Int)
-    
     **func** onComplete()
-    
     **func** onError(code: Int, message: String)
-    
     **func** onWarning(code: Int, message: String)
