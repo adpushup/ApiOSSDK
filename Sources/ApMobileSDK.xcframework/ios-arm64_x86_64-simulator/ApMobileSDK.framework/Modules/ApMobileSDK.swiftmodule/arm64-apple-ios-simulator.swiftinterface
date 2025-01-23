@@ -24,27 +24,17 @@ import os
   @objc optional func onError(code: Swift.Int, message: Swift.String)
   @objc optional func onAdDismissed()
 }
-extension ApMobileSDK.ApInterstitialListener {
-  public func onAdClicked()
-  public func onAdImpression()
-  public func adPresented()
-  public func onAdNotLoadedYet()
-  public func onAdFailToPresent(withError error: any Swift.Error)
-  public func onError(code: Swift.Int, message: Swift.String)
-  public func onAdShowedFullScreenContent()
-  public func onAdDismissed()
-}
-public struct ApInitError {
-}
-public protocol ApInitListener {
-  func onInitSuccess()
-  func onInitFailed(initError: ApMobileSDK.ApInitError)
-  func onWarning(initWarning: ApMobileSDK.ApInitError)
-}
-extension ApMobileSDK.ApInitListener {
-  public func onInitSuccess()
-  public func onInitFailed(initError: ApMobileSDK.ApInitError)
-  public func onWarning(initWarning: ApMobileSDK.ApInitError)
+@objc @_inheritsConvenienceInitializers open class ApInterstitialAdListener : ObjectiveC.NSObject, ApMobileSDK.ApInterstitialListener {
+  @objc public func onAdClicked()
+  @objc public func onAdImpression()
+  @objc public func adPresented()
+  @objc public func onAdNotLoadedYet()
+  @objc public func onAdFailToPresent(withError error: any Swift.Error)
+  @objc public func onError(code: Swift.Int, message: Swift.String)
+  @objc public func onAdDismissed()
+  @objc public func onComplete()
+  @objc override dynamic public init()
+  @objc deinit
 }
 @objc public protocol ApRewardedListener {
   @objc optional func onAdClicked()
@@ -57,15 +47,29 @@ extension ApMobileSDK.ApInitListener {
   @objc optional func onError(code: Swift.Int, message: Swift.String)
   @objc optional func onWarning(code: Swift.Int, message: Swift.String)
 }
-extension ApMobileSDK.ApRewardedListener {
-  public func onAdClicked()
-  public func onAdImpression()
-  public func onAdShowed()
-  public func onAdDismissed()
-  public func onAdNotLoadedYet()
-  public func onUserEarnedReward(type: Swift.String, amount: Swift.Int)
-  public func onError(code: Swift.Int, message: Swift.String)
-  public func onWarning(code: Swift.Int, message: Swift.String)
+@objc @_inheritsConvenienceInitializers open class ApRewardedAdListener : ObjectiveC.NSObject, ApMobileSDK.ApRewardedListener {
+  @objc public func onAdClicked()
+  @objc public func onAdImpression()
+  public func adPresented()
+  @objc public func onAdNotLoadedYet()
+  public func onAdFailToPresent(withError error: any Swift.Error)
+  @objc public func onError(code: Swift.Int, message: Swift.String)
+  @objc public func onAdDismissed()
+  @objc public func onComplete()
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct ApInitError {
+}
+public protocol ApInitListener {
+  func onInitSuccess()
+  func onInitFailed(initError: ApMobileSDK.ApInitError)
+  func onWarning(initWarning: ApMobileSDK.ApInitError)
+}
+extension ApMobileSDK.ApInitListener {
+  public func onInitSuccess()
+  public func onInitFailed(initError: ApMobileSDK.ApInitError)
+  public func onWarning(initWarning: ApMobileSDK.ApInitError)
 }
 @_inheritsConvenienceInitializers @objc public class ApAppSDK : ObjectiveC.NSObject {
   public static func initialise(id: Swift.String, apInitListener: (any ApMobileSDK.ApInitListener)?)

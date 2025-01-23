@@ -349,6 +349,21 @@ SWIFT_PROTOCOL("_TtP11ApMobileSDK22ApInterstitialListener_")
 @end
 
 
+SWIFT_CLASS("_TtC11ApMobileSDK24ApInterstitialAdListener")
+@interface ApInterstitialAdListener : NSObject <ApInterstitialListener>
+- (void)onAdClicked;
+- (void)onAdImpression;
+- (void)adPresented;
+- (void)onAdNotLoadedYet;
+- (void)onAdFailToPresentWithError:(NSError * _Nonnull)error;
+- (void)onErrorWithCode:(NSInteger)code message:(NSString * _Nonnull)message;
+- (void)onAdDismissed;
+- (void)onComplete;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
 SWIFT_PROTOCOL("_TtP11ApMobileSDK18ApRewardedListener_")
 @protocol ApRewardedListener
 @optional
@@ -364,6 +379,19 @@ SWIFT_PROTOCOL("_TtP11ApMobileSDK18ApRewardedListener_")
 - (void)onErrorWithCode:(NSInteger)code message:(NSString * _Nonnull)message;
 - (void)onWarningWithCode:(NSInteger)code message:(NSString * _Nonnull)message;
 @end
+
+
+SWIFT_CLASS("_TtC11ApMobileSDK20ApRewardedAdListener")
+@interface ApRewardedAdListener : NSObject <ApRewardedListener>
+- (void)onAdClicked;
+- (void)onAdImpression;
+- (void)onAdNotLoadedYet;
+- (void)onErrorWithCode:(NSInteger)code message:(NSString * _Nonnull)message;
+- (void)onAdDismissed;
+- (void)onComplete;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 #endif
 #if __has_attribute(external_source_symbol)
