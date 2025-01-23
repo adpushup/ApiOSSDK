@@ -18,7 +18,7 @@ let package = Package(
     ],
     targets: [
         .target(
-      name: "ApMobileSDK",
+      name: "ApiOSSDK",
       dependencies: [
         .target(name: "ApMobileSDK"),
         .product(name: "GoogleMobileAds", package: "GoogleMobileAds"),
