@@ -17,6 +17,14 @@ let package = Package(
     dependencies: [.package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "11.0.0"),
     ],
     targets: [
+        .target(
+      name: "ApMobileSDK",
+      dependencies: [
+        .target(name: "ApMobileSDK"),
+        .product(name: "GoogleMobileAds", package: "GoogleMobileAds"),
+      ],
+      path: "Sources"
+    ),
         .binaryTarget(
             name: "ApMobileSDK",
             url: "https://github.com/adpushup/ApiOSSDK/releases/download/1.0.1/ApMobileSDK.xcframework.zip",
