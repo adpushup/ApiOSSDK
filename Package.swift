@@ -11,10 +11,10 @@ let package = Package(
     products: [
         .library(
             name: "ApMobileSDK",
-            targets: ["ApMobileSDK"]
+            targets: ["ApiOSSDK"]
         ),
     ],
-    dependencies: [.package(name: "swift-package-manager-google-mobile-ads", url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "11.0.0"),
+    dependencies: [.package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "11.0.0"),
     ],
     targets: [
         .binaryTarget(
@@ -26,7 +26,8 @@ let package = Package(
           name: "ApiOSSDK",
           dependencies: ["ApMobileSDK",
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
-          ]
+          ],
+          path: "Sources"
         )
     ]
 )
