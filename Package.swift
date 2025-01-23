@@ -20,8 +20,7 @@ let package = Package(
         .target(
       name: "ApiOSSDK",
       dependencies: [
-        .target(name: "ApMobileSDK"),
-        .product(name: "GoogleMobileAds", package: "GoogleMobileAds"),
+        .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
       ],
       path: "Sources"
     ),
