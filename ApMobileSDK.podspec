@@ -12,6 +12,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "14.0"
   spec.source       = { :git => "https://github.com/adpushup/ApiOSSDK.git", :tag => "1.0.2" }
   spec.swift_version = "5.0"
-  spec.vendored_frameworks = "Sources/ApMobileSDK.xcframework"
+  spec.vendored_frameworks = "Sources/ApiOSSDK/ApMobileSDK.xcframework"
+  spec.static_framework = true
 
 end
