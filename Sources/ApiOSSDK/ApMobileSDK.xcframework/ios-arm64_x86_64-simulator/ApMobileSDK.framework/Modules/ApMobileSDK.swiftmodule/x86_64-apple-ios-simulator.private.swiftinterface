@@ -48,16 +48,6 @@ public struct ApInitError {
   @objc override dynamic public init()
   @objc deinit
 }
-public protocol ApInitListener {
-  func onInitSuccess()
-  func onInitFailed(initError: ApMobileSDK.ApInitError)
-  func onWarning(initWarning: ApMobileSDK.ApInitError)
-}
-extension ApMobileSDK.ApInitListener {
-  public func onInitSuccess()
-  public func onInitFailed(initError: ApMobileSDK.ApInitError)
-  public func onWarning(initWarning: ApMobileSDK.ApInitError)
-}
 @objc public protocol ApRewardedListener {
   @objc optional func onAdClicked()
   @objc optional func onAdImpression()
@@ -80,4 +70,14 @@ extension ApMobileSDK.ApInitListener {
   @objc public func onComplete()
   @objc override dynamic public init()
   @objc deinit
+}
+public protocol ApInitListener {
+  func onInitSuccess()
+  func onInitFailed(initError: ApMobileSDK.ApInitError)
+  func onWarning(initWarning: ApMobileSDK.ApInitError)
+}
+extension ApMobileSDK.ApInitListener {
+  public func onInitSuccess()
+  public func onInitFailed(initError: ApMobileSDK.ApInitError)
+  public func onWarning(initWarning: ApMobileSDK.ApInitError)
 }
