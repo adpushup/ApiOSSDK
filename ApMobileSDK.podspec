@@ -11,9 +11,9 @@ Pod::Spec.new do |spec|
   spec.author       = [{ "Adpushup" => "rishabh.tripathi@adpushup.com" }]
   spec.platform     = :ios, "14.0"
   spec.source       = { :git => "https://github.com/adpushup/ApiOSSDK.git", :tag => "1.0.7" }
-  spec.dependency 'Google-Mobile-Ads-SDK', '~> 11.0'
+  spec.readme = 'https://github.com/adpushup/ApiOSSDK/blob/master/README.md'
   spec.swift_version = "5.0"
   spec.vendored_frameworks = "Sources/ApiOSSDK/ApMobileSDK.xcframework"
   spec.static_framework = true
-  spec.readme = 'https://github.com/adpushup/ApiOSSDK/blob/master/README.md'
+  
 end
