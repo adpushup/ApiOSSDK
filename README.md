@@ -23,7 +23,7 @@ Xcode version **15.3** or higher.
 - Importing from Cocoapods.
     - Just add this command in your Podfile.
     
-          `pod 'ApMobileSDK', '~> 1.0'`
+          `pod 'ApMobileSDK', '~> 1.1.0'`
     - Then from the command line run:
     
           `pod install`
