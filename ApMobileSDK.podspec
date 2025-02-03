@@ -10,8 +10,11 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "14.0"
   spec.source       = { :git => "https://github.com/adpushup/ApiOSSDK.git", :tag => spec.version.to_s }
   spec.readme = 'https://github.com/adpushup/ApiOSSDK/blob/master/README.md'
-  spec.swift_version = "5.0"
+  spec.swift_version = "5.3"
   spec.vendored_frameworks = "Sources/ApiOSSDK/ApMobileSDK.xcframework"
   spec.static_framework = false
+  spec.user_target_xcconfig = {
+    'OTHER_LDFLAGS' => '-weak_framework ApMobileSDK'
+  }
   
 end

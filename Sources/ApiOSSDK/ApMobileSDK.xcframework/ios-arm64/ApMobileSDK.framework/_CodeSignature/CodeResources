@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<data>
+		JDItHSMqJFFEya1jyoaSCkd1tJk=
+		</data>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		VWCA3MeaiPMoOAS1uOteTSLX8js=
+		</data>
 		<key>Headers/ApMobileSDK-Swift.h</key>
 		<data>
 		bm94zFc0Jk5epud6Ddkt9uoQj0g=
@@ -14,35 +22,57 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		88vB8FoP6aMmsabevM67yTkNy0g=
+		k9WM7SNGaBZl8JZB0oAf3D77BSk=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		pJwszhRxdoXwYC5DD+1xPH3s5YE=
+		xE3J16hBUslhgE2J9v0gaKWbrGA=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		51/sfhWcRAHXfLQxQ3p06qOYvq4=
+		j/fkaJcXhKjMcyK1lUL7wflQkQk=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		dqb8z4pQeNDlL3dWDkoBocHUBWQ=
+		4ngmxOk/bCrahbxhGbIL7ZUj+1A=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		51/sfhWcRAHXfLQxQ3p06qOYvq4=
+		j/fkaJcXhKjMcyK1lUL7wflQkQk=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		qPzTO+ZygWUYzq+M/OVV01/Dwqw=
+		FAWyeHOGU6Y16pw8F7qdywk0Gos=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		ku/wKMXJqN+RyNaWzX+sZgR0EMs=
 		</data>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<data>
+		ygcBRVzY+UnEO9suQQ2VaYW1daA=
+		</data>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		k9OFlDPBRWfteJ+bfG12WAoBuls=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			84w0lPjPN5VYgeFPdL/5F6T5CSXu7pFb5f+pO5/8Scs=
+			</data>
+		</dict>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			afsRJYL8I/wGxjXJYdJio/e0tWVNKEeHSR3jAA2t+dI=
+			</data>
+		</dict>
 		<key>Headers/ApMobileSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -61,35 +91,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nsebYX65RXjwFg1N2WkZdxbzHzqOaxFt9rWbOnMFb6U=
+			MmJXgrY9yDdgVD1UICcCmBAjTtgNebkGCNHDtxUbjBE=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ODmbpYXRJmjgiUUXvw6Bom+DMikMq6Rcrg7ris1xVpA=
+			7EfmK0ny2A4d+KBpU7+2ymqAw1SfYMY2ti8bymzcIOE=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m/4WnQvBGmwSfPWPfLNi0hRsUfQ0AXA/x9CxVkd4rF8=
+			XPYL0pcVJFFCZiVX9leYjnrZUdLOJptOAjDdpuDPBMQ=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ODmbpYXRJmjgiUUXvw6Bom+DMikMq6Rcrg7ris1xVpA=
+			7EfmK0ny2A4d+KBpU7+2ymqAw1SfYMY2ti8bymzcIOE=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HJlZ7j84BzdZSLPXIxdE7f5IEXSz5fyRoWdOO/mEYqA=
+			M0Awu+9L3ExsmHOcBcdAKYuPVkbyyHj8avRBtpE5ai8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -97,6 +127,20 @@
 			<key>hash2</key>
 			<data>
 			5lLycGBsyvE36j3VCb17B3xU6ul38S1L5PsQsPvybMY=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l/DqqUhDxmxCnSimtvYpsJwm6Pzo0DvdC5jTFMsY4gE=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=
 			</data>
 		</dict>
 	</dict>
