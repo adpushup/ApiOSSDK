@@ -34,6 +34,28 @@ extension ApMobileSDK.ApInitListener {
   @objc override dynamic public init()
   @objc deinit
 }
+@objc public protocol ApInterstitialListener {
+  @objc optional func onAdClicked()
+  @objc optional func onAdImpression()
+  @objc optional func adPresented()
+  @objc optional func onAdNotLoadedYet()
+  @objc optional func onAdFailToPresent(withError error: any Swift.Error)
+  @objc func onComplete()
+  @objc optional func onError(code: Swift.Int, message: Swift.String)
+  @objc optional func onAdDismissed()
+}
+@objc @_inheritsConvenienceInitializers open class ApInterstitialAdListener : ObjectiveC.NSObject, ApMobileSDK.ApInterstitialListener {
+  @objc public func onAdClicked()
+  @objc public func onAdImpression()
+  @objc public func adPresented()
+  @objc public func onAdNotLoadedYet()
+  @objc public func onAdFailToPresent(withError error: any Swift.Error)
+  @objc public func onError(code: Swift.Int, message: Swift.String)
+  @objc public func onAdDismissed()
+  @objc public func onComplete()
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc public protocol ApRewardedListener {
   @objc optional func onAdClicked()
   @objc optional func onAdImpression()
@@ -58,26 +80,4 @@ extension ApMobileSDK.ApInitListener {
   @objc deinit
 }
 public struct ApInitError {
-}
-@objc public protocol ApInterstitialListener {
-  @objc optional func onAdClicked()
-  @objc optional func onAdImpression()
-  @objc optional func adPresented()
-  @objc optional func onAdNotLoadedYet()
-  @objc optional func onAdFailToPresent(withError error: any Swift.Error)
-  @objc func onComplete()
-  @objc optional func onError(code: Swift.Int, message: Swift.String)
-  @objc optional func onAdDismissed()
-}
-@objc @_inheritsConvenienceInitializers open class ApInterstitialAdListener : ObjectiveC.NSObject, ApMobileSDK.ApInterstitialListener {
-  @objc public func onAdClicked()
-  @objc public func onAdImpression()
-  @objc public func adPresented()
-  @objc public func onAdNotLoadedYet()
-  @objc public func onAdFailToPresent(withError error: any Swift.Error)
-  @objc public func onError(code: Swift.Int, message: Swift.String)
-  @objc public func onAdDismissed()
-  @objc public func onComplete()
-  @objc override dynamic public init()
-  @objc deinit
 }

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ApMobileSDK"
-  spec.version      = "1.1.3"
+  spec.version      = "1.1.4"
   spec.summary      = "ApMobileSDK provides full screen ad formats such as Smart Rewarded and Smart Interstitial ads for the iOS apps"
   spec.description  = "ApMobileSDK is easy to implement SDK provides full screen ad formats such as Smart Rewarded and Smart Interstitial ads for the iOS apps."
   spec.homepage     = "https://github.com/adpushup/ApiOSSDK"
@@ -13,8 +13,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.3"
   spec.vendored_frameworks = "Sources/ApiOSSDK/ApMobileSDK.xcframework"
   spec.static_framework = false
-  spec.user_target_xcconfig = {
-    'OTHER_LDFLAGS' => '-weak_framework ApMobileSDK'
-  }
-  
+
+
 end
