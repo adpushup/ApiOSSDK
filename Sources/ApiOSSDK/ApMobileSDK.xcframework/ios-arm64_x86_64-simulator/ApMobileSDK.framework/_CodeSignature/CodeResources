@@ -26,43 +26,43 @@
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		qpXMVRVQvfrNDWN8zahZaaWM0R4=
+		LImSQ430iy/3CKrff0uqDyevCbc=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BD2W8DukLLhlr4Jf3hzVYa0gxmA=
+		hiwKZgJKLi5HgaK4orXFMSdHT8Y=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		LOAqPcYBfc/ld2hjUaLyU+784pQ=
+		3tRbj6vV97J5Ds0h/5SNWim+whU=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BD2W8DukLLhlr4Jf3hzVYa0gxmA=
+		hiwKZgJKLi5HgaK4orXFMSdHT8Y=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		p9kmHCgzsDh1kKFfT6RgpYIxoVU=
+		1MvH9I3scvB3WLtFm0LCHJx6fo8=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		qpXMVRVQvfrNDWN8zahZaaWM0R4=
+		LImSQ430iy/3CKrff0uqDyevCbc=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		H2P5kFjtEpB+ZfHylOMYG4s9ulc=
+		6faLDyE/DD2/BhJSv2EgMirqKPo=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hquFr15dnY7UID8Pbd4CtN0oFZg=
+		lxM0qn17IiWHYDY/N89jYoMs674=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		H2P5kFjtEpB+ZfHylOMYG4s9ulc=
+		6faLDyE/DD2/BhJSv2EgMirqKPo=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0oNcZdDB+L6ey7NJXKo/hazxEb0=
+		+/5nUCDDkfoCs3mi5xgytGEvg6s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -111,70 +111,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jOdU0cfQe3sDBTDqbjbhfSIO8PZ/N7HP0nZVH/wfF/0=
+			jaqarDi8vcBzyt0C4rBSlHLGyyXfzP5SFPT8xKNJ/Sg=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ht8KG60r5wv7GgurR0lA1ex7CjevhWMB275JkZ1He0c=
+			IlDUbltnkwSykD51iXLwFd6LN2ifTuV7C4sb1754wZ4=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BzflFqej9vwgoVvoYF9KXoMo02tM2nxeAN3bN+8HAHA=
+			2ktvu4ie0Vy8+djOQ7B0R4u5GPcojw5FIjosQ6B1wBY=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ht8KG60r5wv7GgurR0lA1ex7CjevhWMB275JkZ1He0c=
+			IlDUbltnkwSykD51iXLwFd6LN2ifTuV7C4sb1754wZ4=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ol1bXj+wLzeG2B1Ia+yv57BNC2cilLHg7ziBPoo0QuQ=
+			cpiNrfZWyncbhj1+6NGMa0Kbjha2CChRqwXBVbnxHFo=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jOdU0cfQe3sDBTDqbjbhfSIO8PZ/N7HP0nZVH/wfF/0=
+			jaqarDi8vcBzyt0C4rBSlHLGyyXfzP5SFPT8xKNJ/Sg=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			933yvEC4zjD0PjzdHR3nt6C7Ay7d9WD+n0RGt1TRfEY=
+			gAh8yLTmgZVn5tjvXFtVEgGqnVhzDVAWUy6q5LBsQtg=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ioX0VdJTV7Bqh+lul2hQ094kOT/VB6cOqdaJrFf+T7U=
+			nogbWEA9AkGKq2/8/9wjK39Ng232LS+YPVw2TW1czNY=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			933yvEC4zjD0PjzdHR3nt6C7Ay7d9WD+n0RGt1TRfEY=
+			gAh8yLTmgZVn5tjvXFtVEgGqnVhzDVAWUy6q5LBsQtg=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GL28gUXJR629pL18a/2HvEPvySTbJ9+tc5yqUmeWmJ8=
+			f2Svvjez/E85P3ZJcjCYKLsp1HNnIky+sWaraPZczWQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
