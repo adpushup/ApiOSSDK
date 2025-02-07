@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		uyjSzIBDUfgQvXHsgKTEftacE5o=
+		pLVG7Hn07EdUm3jtLErDEImhPf4=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BTxgVUVBkREFLQIEe6E9v0+wr7I=
+		YPOZLZ+bYdLt37NUFrlPEL+VBm0=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3t2Tp99aqYZE8qE/kQ4+h+EYWxo=
+		3tRbj6vV97J5Ds0h/5SNWim+whU=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BTxgVUVBkREFLQIEe6E9v0+wr7I=
+		YPOZLZ+bYdLt37NUFrlPEL+VBm0=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5FLHu+5ajoO8gM1HnHFcUH+7nco=
+		63+8MGVSkI1llA9GBGiPMx+dV/8=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uyjSzIBDUfgQvXHsgKTEftacE5o=
+		pLVG7Hn07EdUm3jtLErDEImhPf4=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		S6nT9QH+prrF4KPHarB59x2EF78=
+		cVOejsJgLBhYoC3NGy/FXCR+uaI=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ASJ50l2ohlG60CARgYRaDH5G3tE=
+		lxM0qn17IiWHYDY/N89jYoMs674=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		S6nT9QH+prrF4KPHarB59x2EF78=
+		cVOejsJgLBhYoC3NGy/FXCR+uaI=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		O/b6skhGS67gJwy9HRC7p/8pbK4=
+		yA7Iq5MOEO5uAxKMHK41ggW5dLU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -77,70 +77,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8twGXNdqaInmuqto0f8Hgjzenvr/3T0kLkNgw2C0YrU=
+			4x3VaHsRw/XEs8+UQ1/duzdc1P9fPtz/duZM6HYroa4=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tfq4h55NSK75FgdSgXpYrWKe2H6H2GjFiKBwXIICsAU=
+			APtMzTa+5SkHGYja3uZ6dYAOmv0pftFchZst1kdHi+8=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hs/0L7MJUyXCvOV7lv0ZczciMW7J35ZVlXnEMzdkJ4c=
+			2ktvu4ie0Vy8+djOQ7B0R4u5GPcojw5FIjosQ6B1wBY=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tfq4h55NSK75FgdSgXpYrWKe2H6H2GjFiKBwXIICsAU=
+			APtMzTa+5SkHGYja3uZ6dYAOmv0pftFchZst1kdHi+8=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mFbjyIMzzekTd2RdmHnmdFxoksa9oWHRGdj0V5Ywe10=
+			eWWnCJM09wiRdpDkmlOInCmiI8WNBSWQW47RSz/2L4g=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8twGXNdqaInmuqto0f8Hgjzenvr/3T0kLkNgw2C0YrU=
+			4x3VaHsRw/XEs8+UQ1/duzdc1P9fPtz/duZM6HYroa4=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yyxk/+vRsufOrktpbIZG22aoTNkDxz9oOvgAgmL7gCQ=
+			ZVIT+/oWXPy/8ZBchL8aisCATVuqRr6bmemBJe+ATDA=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Gus9j39gGuDWqCKmS2v9JwKldbeN9dt6tKFZQ9qXqQ=
+			nogbWEA9AkGKq2/8/9wjK39Ng232LS+YPVw2TW1czNY=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yyxk/+vRsufOrktpbIZG22aoTNkDxz9oOvgAgmL7gCQ=
+			ZVIT+/oWXPy/8ZBchL8aisCATVuqRr6bmemBJe+ATDA=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			txyNpWk0WQlAopSGL5T7Ulvt2mTp+HJeNY177dPP1Ps=
+			LXBPeW5P0JtgkuPJVAg2HDmgNYdCA45plwGNlokpcyQ=
 			</data>
 		</dict>
 	</dict>
