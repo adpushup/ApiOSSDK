@@ -302,11 +302,126 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSString;
+@class UIViewController;
+@protocol ApInterstitialListener;
+@protocol ApRewardedListener;
 
 SWIFT_CLASS("_TtC11ApMobileSDK8ApAppSDK")
 @interface ApAppSDK : NSObject
+/// Initialise SDK without Initialization Listener.
+/// \param id Ap App Id - Provided by AdPushUp
+///
++ (void)initialiseWithId:(NSString * _Nonnull)id;
+/// Try to show Interstitial Ad if all conditions met. Feel free to call this multiple times as
+/// Ads will be shown only at the right time.
+/// \param apAdPlacementId <code>String</code>  Ap Placement ID
+///
+/// \param apInterstitialListener <code>ApInterstitialListener</code>  Used to listen callbacks from the Ad.
+///
++ (void)showInterstitialAdWithViewController:(UIViewController * _Nonnull)viewController apPlacementID:(NSString * _Nonnull)apPlacementID apInterstitialListener:(id <ApInterstitialListener> _Nonnull)apInterstitialListener;
+/// Try to show Rewarded Ad if all conditions met. Feel free to call this multiple times as
+/// Ads will be shown only at the right time.
+/// \param apAdPlacementId <code>String</code>   Ap Placement ID
+///
+/// \param apRewardedListener <code>ApRewardedListener</code>  Used to listen callbacks from the Ad.
+///
++ (void)showRewardedAdWithViewController:(UIViewController * _Nonnull)viewController apPlacementID:(NSString * _Nonnull)apPlacementID apRewardedListener:(id <ApRewardedListener> _Nonnull)apRewardedListener;
+/// Tells if the Rewarded Ad is ready or not. You can inform the user about available reward it accordingly.
+/// <ul>
+///   <li>
+///     Returns True if the ad is ready else False
+///   </li>
+/// </ul>
+/// \param apAdPlacementId <code>String</code> Ap Placement ID
+///
++ (BOOL)isRewardedAdReadyWithApPlacementID:(NSString * _Nonnull)apPlacementID SWIFT_WARN_UNUSED_RESULT;
+/// Resume the SDK after App Resumes OR Screen Navigation. SDK might preload ads if required. Call this method in
+/// when app resumes  to ensure the SDK is ready to show ads when your app resumes.
++ (void)resume;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+SWIFT_PROTOCOL("_TtP11ApMobileSDK22ApInterstitialListener_")
+@protocol ApInterstitialListener
+@optional
+/// Called when Ad is clicked
+- (void)onAdClicked;
+/// Called when Ad Impression is detected
+- (void)onAdImpression;
+/// Called when Ad is presented
+- (void)adPresented;
+/// Called when Ad is not loaded yet
+- (void)onAdNotLoadedYet;
+/// Called when Ad fails to present
+- (void)onAdFailToPresentWithError:(NSError * _Nonnull)error;
+@required
+/// Called when Ad is completed
+- (void)onComplete;
+@optional
+/// Called when there is an error
+- (void)onErrorWithCode:(NSInteger)code message:(NSString * _Nonnull)message;
+/// Called when Ad is dismissed
+- (void)onAdDismissed;
+@end
+
+
+/// Extension to provide default implementations for <code>ApInterstitialListener</code>
+SWIFT_CLASS("_TtC11ApMobileSDK24ApInterstitialAdListener")
+@interface ApInterstitialAdListener : NSObject <ApInterstitialListener>
+- (void)onAdClicked;
+- (void)onAdImpression;
+- (void)adPresented;
+- (void)onAdNotLoadedYet;
+- (void)onAdFailToPresentWithError:(NSError * _Nonnull)error;
+- (void)onErrorWithCode:(NSInteger)code message:(NSString * _Nonnull)message;
+- (void)onAdDismissed;
+- (void)onComplete;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+/// Rewarded Ad Listener
+SWIFT_PROTOCOL("_TtP11ApMobileSDK18ApRewardedListener_")
+@protocol ApRewardedListener
+@optional
+/// Called when Ad is clicked
+- (void)onAdClicked;
+/// Called when Ad Impression is detected
+- (void)onAdImpression;
+/// Called when Ad is presented
+- (void)onAdShowed;
+/// Called when Ad is dismissed
+- (void)onAdDismissed;
+/// Called when Ad is not loaded yet
+- (void)onAdNotLoadedYet;
+/// Called when user earns reward
+- (void)onUserEarnedRewardWithType:(NSString * _Nonnull)type amount:(NSInteger)amount;
+@required
+/// Called when ad completes
+- (void)onComplete;
+@optional
+/// Called when Ad fails due to an error
+- (void)onErrorWithCode:(NSInteger)code message:(NSString * _Nonnull)message;
+/// Called when there is a warning
+- (void)onWarningWithCode:(NSInteger)code message:(NSString * _Nonnull)message;
+@end
+
+
+/// Extension to provide default implementations for <code>ApRewardedListener</code>
+SWIFT_CLASS("_TtC11ApMobileSDK20ApRewardedAdListener")
+@interface ApRewardedAdListener : NSObject <ApRewardedListener>
+- (void)onAdClicked;
+- (void)onAdImpression;
+- (void)onAdNotLoadedYet;
+- (void)onErrorWithCode:(NSInteger)code message:(NSString * _Nonnull)message;
+- (void)onAdDismissed;
+- (void)onComplete;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 #endif
 #if __has_attribute(external_source_symbol)
@@ -620,11 +735,126 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@class NSString;
+@class UIViewController;
+@protocol ApInterstitialListener;
+@protocol ApRewardedListener;
 
 SWIFT_CLASS("_TtC11ApMobileSDK8ApAppSDK")
 @interface ApAppSDK : NSObject
+/// Initialise SDK without Initialization Listener.
+/// \param id Ap App Id - Provided by AdPushUp
+///
++ (void)initialiseWithId:(NSString * _Nonnull)id;
+/// Try to show Interstitial Ad if all conditions met. Feel free to call this multiple times as
+/// Ads will be shown only at the right time.
+/// \param apAdPlacementId <code>String</code>  Ap Placement ID
+///
+/// \param apInterstitialListener <code>ApInterstitialListener</code>  Used to listen callbacks from the Ad.
+///
++ (void)showInterstitialAdWithViewController:(UIViewController * _Nonnull)viewController apPlacementID:(NSString * _Nonnull)apPlacementID apInterstitialListener:(id <ApInterstitialListener> _Nonnull)apInterstitialListener;
+/// Try to show Rewarded Ad if all conditions met. Feel free to call this multiple times as
+/// Ads will be shown only at the right time.
+/// \param apAdPlacementId <code>String</code>   Ap Placement ID
+///
+/// \param apRewardedListener <code>ApRewardedListener</code>  Used to listen callbacks from the Ad.
+///
++ (void)showRewardedAdWithViewController:(UIViewController * _Nonnull)viewController apPlacementID:(NSString * _Nonnull)apPlacementID apRewardedListener:(id <ApRewardedListener> _Nonnull)apRewardedListener;
+/// Tells if the Rewarded Ad is ready or not. You can inform the user about available reward it accordingly.
+/// <ul>
+///   <li>
+///     Returns True if the ad is ready else False
+///   </li>
+/// </ul>
+/// \param apAdPlacementId <code>String</code> Ap Placement ID
+///
++ (BOOL)isRewardedAdReadyWithApPlacementID:(NSString * _Nonnull)apPlacementID SWIFT_WARN_UNUSED_RESULT;
+/// Resume the SDK after App Resumes OR Screen Navigation. SDK might preload ads if required. Call this method in
+/// when app resumes  to ensure the SDK is ready to show ads when your app resumes.
++ (void)resume;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+SWIFT_PROTOCOL("_TtP11ApMobileSDK22ApInterstitialListener_")
+@protocol ApInterstitialListener
+@optional
+/// Called when Ad is clicked
+- (void)onAdClicked;
+/// Called when Ad Impression is detected
+- (void)onAdImpression;
+/// Called when Ad is presented
+- (void)adPresented;
+/// Called when Ad is not loaded yet
+- (void)onAdNotLoadedYet;
+/// Called when Ad fails to present
+- (void)onAdFailToPresentWithError:(NSError * _Nonnull)error;
+@required
+/// Called when Ad is completed
+- (void)onComplete;
+@optional
+/// Called when there is an error
+- (void)onErrorWithCode:(NSInteger)code message:(NSString * _Nonnull)message;
+/// Called when Ad is dismissed
+- (void)onAdDismissed;
+@end
+
+
+/// Extension to provide default implementations for <code>ApInterstitialListener</code>
+SWIFT_CLASS("_TtC11ApMobileSDK24ApInterstitialAdListener")
+@interface ApInterstitialAdListener : NSObject <ApInterstitialListener>
+- (void)onAdClicked;
+- (void)onAdImpression;
+- (void)adPresented;
+- (void)onAdNotLoadedYet;
+- (void)onAdFailToPresentWithError:(NSError * _Nonnull)error;
+- (void)onErrorWithCode:(NSInteger)code message:(NSString * _Nonnull)message;
+- (void)onAdDismissed;
+- (void)onComplete;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+/// Rewarded Ad Listener
+SWIFT_PROTOCOL("_TtP11ApMobileSDK18ApRewardedListener_")
+@protocol ApRewardedListener
+@optional
+/// Called when Ad is clicked
+- (void)onAdClicked;
+/// Called when Ad Impression is detected
+- (void)onAdImpression;
+/// Called when Ad is presented
+- (void)onAdShowed;
+/// Called when Ad is dismissed
+- (void)onAdDismissed;
+/// Called when Ad is not loaded yet
+- (void)onAdNotLoadedYet;
+/// Called when user earns reward
+- (void)onUserEarnedRewardWithType:(NSString * _Nonnull)type amount:(NSInteger)amount;
+@required
+/// Called when ad completes
+- (void)onComplete;
+@optional
+/// Called when Ad fails due to an error
+- (void)onErrorWithCode:(NSInteger)code message:(NSString * _Nonnull)message;
+/// Called when there is a warning
+- (void)onWarningWithCode:(NSInteger)code message:(NSString * _Nonnull)message;
+@end
+
+
+/// Extension to provide default implementations for <code>ApRewardedListener</code>
+SWIFT_CLASS("_TtC11ApMobileSDK20ApRewardedAdListener")
+@interface ApRewardedAdListener : NSObject <ApRewardedListener>
+- (void)onAdClicked;
+- (void)onAdImpression;
+- (void)onAdNotLoadedYet;
+- (void)onErrorWithCode:(NSInteger)code message:(NSString * _Nonnull)message;
+- (void)onAdDismissed;
+- (void)onComplete;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 #endif
 #if __has_attribute(external_source_symbol)
