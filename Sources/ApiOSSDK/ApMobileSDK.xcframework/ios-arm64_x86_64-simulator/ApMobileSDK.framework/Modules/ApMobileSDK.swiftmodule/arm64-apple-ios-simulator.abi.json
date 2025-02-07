@@ -81,272 +81,6 @@
       },
       {
         "kind": "Import",
-        "name": "BackgroundTasks",
-        "printedName": "BackgroundTasks",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "os.lock",
-        "printedName": "os.lock",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Network",
-        "printedName": "Network",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
         "name": "GoogleMobileAds",
         "printedName": "GoogleMobileAds",
         "declKind": "Import",
@@ -397,47 +131,6 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ApMobileSDK"
       },
       {
         "kind": "Import",
@@ -522,15 +215,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApAppSDK(cm)initialiseWithId:",
+            "usr": "s:11ApMobileSDK0a3AppC0C10initialise2idySS_tFZ",
             "mangledName": "$s11ApMobileSDK0a3AppC0C10initialise2idySS_tFZ",
             "moduleName": "ApMobileSDK",
             "static": true,
-            "objc_name": "initialiseWithId:",
             "declAttributes": [
               "Final",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -561,19 +252,17 @@
                 "kind": "TypeNominal",
                 "name": "ApInterstitialListener",
                 "printedName": "any ApMobileSDK.ApInterstitialListener",
-                "usr": "c:@M@ApMobileSDK@objc(pl)ApInterstitialListener"
+                "usr": "s:11ApMobileSDK0A20InterstitialListenerP"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApAppSDK(cm)showInterstitialAdWithViewController:apPlacementID:apInterstitialListener:",
+            "usr": "s:11ApMobileSDK0a3AppC0C18showInterstitialAd14viewController13apPlacementID0jF8ListenerySo06UIViewI0C_SSAA0afM0_ptFZ",
             "mangledName": "$s11ApMobileSDK0a3AppC0C18showInterstitialAd14viewController13apPlacementID0jF8ListenerySo06UIViewI0C_SSAA0afM0_ptFZ",
             "moduleName": "ApMobileSDK",
             "static": true,
-            "objc_name": "showInterstitialAdWithViewController:apPlacementID:apInterstitialListener:",
             "declAttributes": [
               "Final",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -604,19 +293,17 @@
                 "kind": "TypeNominal",
                 "name": "ApRewardedListener",
                 "printedName": "any ApMobileSDK.ApRewardedListener",
-                "usr": "c:@M@ApMobileSDK@objc(pl)ApRewardedListener"
+                "usr": "s:11ApMobileSDK0A16RewardedListenerP"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApAppSDK(cm)showRewardedAdWithViewController:apPlacementID:apRewardedListener:",
+            "usr": "s:11ApMobileSDK0a3AppC0C14showRewardedAd14viewController13apPlacementID0jF8ListenerySo06UIViewI0C_SSAA0afM0_ptFZ",
             "mangledName": "$s11ApMobileSDK0a3AppC0C14showRewardedAd14viewController13apPlacementID0jF8ListenerySo06UIViewI0C_SSAA0afM0_ptFZ",
             "moduleName": "ApMobileSDK",
             "static": true,
-            "objc_name": "showRewardedAdWithViewController:apPlacementID:apRewardedListener:",
             "declAttributes": [
               "Final",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -640,15 +327,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApAppSDK(cm)isRewardedAdReadyWithApPlacementID:",
+            "usr": "s:11ApMobileSDK0a3AppC0C17isRewardedAdReady13apPlacementIDSbSS_tFZ",
             "mangledName": "$s11ApMobileSDK0a3AppC0C17isRewardedAdReady13apPlacementIDSbSS_tFZ",
             "moduleName": "ApMobileSDK",
             "static": true,
-            "objc_name": "isRewardedAdReadyWithApPlacementID:",
             "declAttributes": [
               "Final",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -665,14 +350,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApAppSDK(cm)resume",
+            "usr": "s:11ApMobileSDK0a3AppC0C6resumeyyFZ",
             "mangledName": "$s11ApMobileSDK0a3AppC0C6resumeyyFZ",
             "moduleName": "ApMobileSDK",
             "static": true,
             "declAttributes": [
               "Final",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -801,6 +485,47 @@
         "moduleName": "ApMobileSDK"
       },
       {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "ApRewardedListener",
         "printedName": "ApRewardedListener",
@@ -817,15 +542,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApRewardedListener(im)onAdClicked",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerP11onAdClickedyyF",
             "mangledName": "$s11ApMobileSDK0A16RewardedListenerP11onAdClickedyyF",
             "moduleName": "ApMobileSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
             "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "protocolReq": true,
             "declAttributes": [
-              "Optional",
-              "ObjC",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -843,15 +566,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApRewardedListener(im)onAdImpression",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerP14onAdImpressionyyF",
             "mangledName": "$s11ApMobileSDK0A16RewardedListenerP14onAdImpressionyyF",
             "moduleName": "ApMobileSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
             "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "protocolReq": true,
             "declAttributes": [
-              "Optional",
-              "ObjC",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -869,15 +590,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApRewardedListener(im)onAdShowed",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerP10onAdShowedyyF",
             "mangledName": "$s11ApMobileSDK0A16RewardedListenerP10onAdShowedyyF",
             "moduleName": "ApMobileSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
             "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "protocolReq": true,
             "declAttributes": [
-              "Optional",
-              "ObjC",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -895,15 +614,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApRewardedListener(im)onAdDismissed",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerP13onAdDismissedyyF",
             "mangledName": "$s11ApMobileSDK0A16RewardedListenerP13onAdDismissedyyF",
             "moduleName": "ApMobileSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
             "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "protocolReq": true,
             "declAttributes": [
-              "Optional",
-              "ObjC",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -921,15 +638,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApRewardedListener(im)onAdNotLoadedYet",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerP16onAdNotLoadedYetyyF",
             "mangledName": "$s11ApMobileSDK0A16RewardedListenerP16onAdNotLoadedYetyyF",
             "moduleName": "ApMobileSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
             "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "protocolReq": true,
             "declAttributes": [
-              "Optional",
-              "ObjC",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -959,16 +674,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApRewardedListener(im)onUserEarnedRewardWithType:amount:",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerP18onUserEarnedReward4type6amountySS_SitF",
             "mangledName": "$s11ApMobileSDK0A16RewardedListenerP18onUserEarnedReward4type6amountySS_SitF",
             "moduleName": "ApMobileSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
             "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "protocolReq": true,
-            "objc_name": "onUserEarnedRewardWithType:amount:",
             "declAttributes": [
-              "Optional",
-              "ObjC",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -986,15 +698,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApRewardedListener(im)onComplete",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerP10onCompleteyyF",
             "mangledName": "$s11ApMobileSDK0A16RewardedListenerP10onCompleteyyF",
             "moduleName": "ApMobileSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
             "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1023,16 +734,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApRewardedListener(im)onErrorWithCode:message:",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerP7onError4code7messageySi_SStF",
             "mangledName": "$s11ApMobileSDK0A16RewardedListenerP7onError4code7messageySi_SStF",
             "moduleName": "ApMobileSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
             "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "protocolReq": true,
-            "objc_name": "onErrorWithCode:message:",
             "declAttributes": [
-              "Optional",
-              "ObjC",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
@@ -1062,55 +770,18 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApRewardedListener(im)onWarningWithCode:message:",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerP9onWarning4code7messageySi_SStF",
             "mangledName": "$s11ApMobileSDK0A16RewardedListenerP9onWarning4code7messageySi_SStF",
             "moduleName": "ApMobileSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
             "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "protocolReq": true,
-            "objc_name": "onWarningWithCode:message:",
             "declAttributes": [
-              "Optional",
-              "ObjC",
               "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "c:@M@ApMobileSDK@objc(pl)ApRewardedListener",
-        "mangledName": "$s11ApMobileSDK0A16RewardedListenerP",
-        "moduleName": "ApMobileSDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ApRewardedAdListener",
-        "printedName": "ApRewardedAdListener",
-        "children": [
           {
             "kind": "Function",
             "name": "onAdClicked",
@@ -1123,14 +794,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApRewardedAdListener(im)onAdClicked",
-            "mangledName": "$s11ApMobileSDK0A18RewardedAdListenerC02onE7ClickedyyF",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerPAAE11onAdClickedyyF",
+            "mangledName": "$s11ApMobileSDK0A16RewardedListenerPAAE11onAdClickedyyF",
             "moduleName": "ApMobileSDK",
-            "objc_name": "onAdClicked",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "declAttributes": [
-              "ObjC",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -1145,14 +817,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApRewardedAdListener(im)onAdImpression",
-            "mangledName": "$s11ApMobileSDK0A18RewardedAdListenerC02onE10ImpressionyyF",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerPAAE14onAdImpressionyyF",
+            "mangledName": "$s11ApMobileSDK0A16RewardedListenerPAAE14onAdImpressionyyF",
             "moduleName": "ApMobileSDK",
-            "objc_name": "onAdImpression",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "declAttributes": [
-              "ObjC",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -1167,12 +840,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11ApMobileSDK0A18RewardedAdListenerC11adPresentedyyF",
-            "mangledName": "$s11ApMobileSDK0A18RewardedAdListenerC11adPresentedyyF",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerPAAE11adPresentedyyF",
+            "mangledName": "$s11ApMobileSDK0A16RewardedListenerPAAE11adPresentedyyF",
             "moduleName": "ApMobileSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -1187,14 +863,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApRewardedAdListener(im)onAdNotLoadedYet",
-            "mangledName": "$s11ApMobileSDK0A18RewardedAdListenerC02onE12NotLoadedYetyyF",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerPAAE16onAdNotLoadedYetyyF",
+            "mangledName": "$s11ApMobileSDK0A16RewardedListenerPAAE16onAdNotLoadedYetyyF",
             "moduleName": "ApMobileSDK",
-            "objc_name": "onAdNotLoadedYet",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "declAttributes": [
-              "ObjC",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -1215,12 +892,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11ApMobileSDK0A18RewardedAdListenerC02onE13FailToPresent9withErrorys0L0_p_tF",
-            "mangledName": "$s11ApMobileSDK0A18RewardedAdListenerC02onE13FailToPresent9withErrorys0L0_p_tF",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerPAAE17onAdFailToPresent9withErrorys0L0_p_tF",
+            "mangledName": "$s11ApMobileSDK0A16RewardedListenerPAAE17onAdFailToPresent9withErrorys0L0_p_tF",
             "moduleName": "ApMobileSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -1247,14 +927,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApRewardedAdListener(im)onErrorWithCode:message:",
-            "mangledName": "$s11ApMobileSDK0A18RewardedAdListenerC7onError4code7messageySi_SStF",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerPAAE7onError4code7messageySi_SStF",
+            "mangledName": "$s11ApMobileSDK0A16RewardedListenerPAAE7onError4code7messageySi_SStF",
             "moduleName": "ApMobileSDK",
-            "objc_name": "onErrorWithCode:message:",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "declAttributes": [
-              "ObjC",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -1269,14 +950,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApRewardedAdListener(im)onAdDismissed",
-            "mangledName": "$s11ApMobileSDK0A18RewardedAdListenerC02onE9DismissedyyF",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerPAAE13onAdDismissedyyF",
+            "mangledName": "$s11ApMobileSDK0A16RewardedListenerPAAE13onAdDismissedyyF",
             "moduleName": "ApMobileSDK",
-            "objc_name": "onAdDismissed",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "declAttributes": [
-              "ObjC",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -1291,73 +973,27 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApRewardedAdListener(im)onComplete",
-            "mangledName": "$s11ApMobileSDK0A18RewardedAdListenerC10onCompleteyyF",
+            "usr": "s:11ApMobileSDK0A16RewardedListenerPAAE10onCompleteyyF",
+            "mangledName": "$s11ApMobileSDK0A16RewardedListenerPAAE10onCompleteyyF",
             "moduleName": "ApMobileSDK",
-            "objc_name": "onComplete",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApRewardedListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApRewardedListener>",
             "declAttributes": [
-              "ObjC",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ApRewardedAdListener",
-                "printedName": "ApMobileSDK.ApRewardedAdListener",
-                "usr": "c:@M@ApMobileSDK@objc(cs)ApRewardedAdListener"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApRewardedAdListener(im)init",
-            "mangledName": "$s11ApMobileSDK0A18RewardedAdListenerCACycfc",
-            "moduleName": "ApMobileSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
-        "declKind": "Class",
-        "usr": "c:@M@ApMobileSDK@objc(cs)ApRewardedAdListener",
-        "mangledName": "$s11ApMobileSDK0A18RewardedAdListenerC",
+        "declKind": "Protocol",
+        "usr": "s:11ApMobileSDK0A16RewardedListenerP",
+        "mangledName": "$s11ApMobileSDK0A16RewardedListenerP",
         "moduleName": "ApMobileSDK",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
+          "RawDocComment"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ApRewardedListener",
-            "printedName": "ApRewardedListener",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApRewardedListener",
-            "mangledName": "$s11ApMobileSDK0A16RewardedListenerP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
           {
             "kind": "Conformance",
             "name": "Escapable",
@@ -1367,54 +1003,345 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApInterstitialListener",
+        "printedName": "ApInterstitialListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onAdClicked",
+            "printedName": "onAdClicked()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ApMobileSDK0A20InterstitialListenerP11onAdClickedyyF",
+            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP11onAdClickedyyF",
+            "moduleName": "ApMobileSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdImpression",
+            "printedName": "onAdImpression()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ApMobileSDK0A20InterstitialListenerP14onAdImpressionyyF",
+            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP14onAdImpressionyyF",
+            "moduleName": "ApMobileSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adPresented",
+            "printedName": "adPresented()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ApMobileSDK0A20InterstitialListenerP11adPresentedyyF",
+            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP11adPresentedyyF",
+            "moduleName": "ApMobileSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdNotLoadedYet",
+            "printedName": "onAdNotLoadedYet()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ApMobileSDK0A20InterstitialListenerP16onAdNotLoadedYetyyF",
+            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP16onAdNotLoadedYetyyF",
+            "moduleName": "ApMobileSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdFailToPresent",
+            "printedName": "onAdFailToPresent(withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ApMobileSDK0A20InterstitialListenerP17onAdFailToPresent9withErrorys0L0_p_tF",
+            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP17onAdFailToPresent9withErrorys0L0_p_tF",
+            "moduleName": "ApMobileSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onComplete",
+            "printedName": "onComplete()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ApMobileSDK0A20InterstitialListenerP10onCompleteyyF",
+            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP10onCompleteyyF",
+            "moduleName": "ApMobileSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(code:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ApMobileSDK0A20InterstitialListenerP7onError4code7messageySi_SStF",
+            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP7onError4code7messageySi_SStF",
+            "moduleName": "ApMobileSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdDismissed",
+            "printedName": "onAdDismissed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ApMobileSDK0A20InterstitialListenerP13onAdDismissedyyF",
+            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP13onAdDismissedyyF",
+            "moduleName": "ApMobileSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
+            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11ApMobileSDK0A20InterstitialListenerP",
+        "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP",
+        "moduleName": "ApMobileSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
       },
       {
         "kind": "Import",
@@ -1655,584 +1582,456 @@
         "moduleName": "ApMobileSDK"
       },
       {
-        "kind": "TypeDecl",
-        "name": "ApInterstitialListener",
-        "printedName": "ApInterstitialListener",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "onAdClicked",
-            "printedName": "onAdClicked()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApInterstitialListener(im)onAdClicked",
-            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP11onAdClickedyyF",
-            "moduleName": "ApMobileSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
-            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
-            "protocolReq": true,
-            "declAttributes": [
-              "Optional",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdImpression",
-            "printedName": "onAdImpression()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApInterstitialListener(im)onAdImpression",
-            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP14onAdImpressionyyF",
-            "moduleName": "ApMobileSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
-            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
-            "protocolReq": true,
-            "declAttributes": [
-              "Optional",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "adPresented",
-            "printedName": "adPresented()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApInterstitialListener(im)adPresented",
-            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP11adPresentedyyF",
-            "moduleName": "ApMobileSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
-            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
-            "protocolReq": true,
-            "declAttributes": [
-              "Optional",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdNotLoadedYet",
-            "printedName": "onAdNotLoadedYet()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApInterstitialListener(im)onAdNotLoadedYet",
-            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP16onAdNotLoadedYetyyF",
-            "moduleName": "ApMobileSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
-            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
-            "protocolReq": true,
-            "declAttributes": [
-              "Optional",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdFailToPresent",
-            "printedName": "onAdFailToPresent(withError:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Error",
-                "printedName": "any Swift.Error",
-                "usr": "s:s5ErrorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApInterstitialListener(im)onAdFailToPresentWithError:",
-            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP17onAdFailToPresent9withErrorys0L0_p_tF",
-            "moduleName": "ApMobileSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
-            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
-            "protocolReq": true,
-            "objc_name": "onAdFailToPresentWithError:",
-            "declAttributes": [
-              "Optional",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onComplete",
-            "printedName": "onComplete()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApInterstitialListener(im)onComplete",
-            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP10onCompleteyyF",
-            "moduleName": "ApMobileSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
-            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onError",
-            "printedName": "onError(code:message:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApInterstitialListener(im)onErrorWithCode:message:",
-            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP7onError4code7messageySi_SStF",
-            "moduleName": "ApMobileSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
-            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
-            "protocolReq": true,
-            "objc_name": "onErrorWithCode:message:",
-            "declAttributes": [
-              "Optional",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdDismissed",
-            "printedName": "onAdDismissed()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApInterstitialListener(im)onAdDismissed",
-            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP13onAdDismissedyyF",
-            "moduleName": "ApMobileSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : ApMobileSDK.ApInterstitialListener>",
-            "sugared_genericSig": "<Self where Self : ApMobileSDK.ApInterstitialListener>",
-            "protocolReq": true,
-            "declAttributes": [
-              "Optional",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "c:@M@ApMobileSDK@objc(pl)ApInterstitialListener",
-        "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP",
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "ApMobileSDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
-          "AccessControl",
-          "ObjC",
           "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "ApInterstitialAdListener",
-        "printedName": "ApInterstitialAdListener",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "onAdClicked",
-            "printedName": "onAdClicked()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApInterstitialAdListener(im)onAdClicked",
-            "mangledName": "$s11ApMobileSDK0A22InterstitialAdListenerC02onE7ClickedyyF",
-            "moduleName": "ApMobileSDK",
-            "objc_name": "onAdClicked",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdImpression",
-            "printedName": "onAdImpression()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApInterstitialAdListener(im)onAdImpression",
-            "mangledName": "$s11ApMobileSDK0A22InterstitialAdListenerC02onE10ImpressionyyF",
-            "moduleName": "ApMobileSDK",
-            "objc_name": "onAdImpression",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "adPresented",
-            "printedName": "adPresented()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApInterstitialAdListener(im)adPresented",
-            "mangledName": "$s11ApMobileSDK0A22InterstitialAdListenerC11adPresentedyyF",
-            "moduleName": "ApMobileSDK",
-            "objc_name": "adPresented",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdNotLoadedYet",
-            "printedName": "onAdNotLoadedYet()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApInterstitialAdListener(im)onAdNotLoadedYet",
-            "mangledName": "$s11ApMobileSDK0A22InterstitialAdListenerC02onE12NotLoadedYetyyF",
-            "moduleName": "ApMobileSDK",
-            "objc_name": "onAdNotLoadedYet",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdFailToPresent",
-            "printedName": "onAdFailToPresent(withError:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Error",
-                "printedName": "any Swift.Error",
-                "usr": "s:s5ErrorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApInterstitialAdListener(im)onAdFailToPresentWithError:",
-            "mangledName": "$s11ApMobileSDK0A22InterstitialAdListenerC02onE13FailToPresent9withErrorys0L0_p_tF",
-            "moduleName": "ApMobileSDK",
-            "objc_name": "onAdFailToPresentWithError:",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onError",
-            "printedName": "onError(code:message:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApInterstitialAdListener(im)onErrorWithCode:message:",
-            "mangledName": "$s11ApMobileSDK0A22InterstitialAdListenerC7onError4code7messageySi_SStF",
-            "moduleName": "ApMobileSDK",
-            "objc_name": "onErrorWithCode:message:",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onAdDismissed",
-            "printedName": "onAdDismissed()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApInterstitialAdListener(im)onAdDismissed",
-            "mangledName": "$s11ApMobileSDK0A22InterstitialAdListenerC02onE9DismissedyyF",
-            "moduleName": "ApMobileSDK",
-            "objc_name": "onAdDismissed",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onComplete",
-            "printedName": "onComplete()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApInterstitialAdListener(im)onComplete",
-            "mangledName": "$s11ApMobileSDK0A22InterstitialAdListenerC10onCompleteyyF",
-            "moduleName": "ApMobileSDK",
-            "objc_name": "onComplete",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ApInterstitialAdListener",
-                "printedName": "ApMobileSDK.ApInterstitialAdListener",
-                "usr": "c:@M@ApMobileSDK@objc(cs)ApInterstitialAdListener"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ApMobileSDK@objc(cs)ApInterstitialAdListener(im)init",
-            "mangledName": "$s11ApMobileSDK0A22InterstitialAdListenerCACycfc",
-            "moduleName": "ApMobileSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@ApMobileSDK@objc(cs)ApInterstitialAdListener",
-        "mangledName": "$s11ApMobileSDK0A22InterstitialAdListenerC",
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "ApMobileSDK",
-        "isOpen": true,
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ApInterstitialListener",
-            "printedName": "ApInterstitialListener",
-            "usr": "c:@M@ApMobileSDK@objc(pl)ApInterstitialListener",
-            "mangledName": "$s11ApMobileSDK0A20InterstitialListenerP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
+          "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "os.lock",
+        "printedName": "os.lock",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "BackgroundTasks",
+        "printedName": "BackgroundTasks",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "ApMobileSDK"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1022,
+      "length": 17,
+      "value": "\"ApSmartRewarded\""
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1534,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1648,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1746,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1839,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1932,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2032,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2132,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2240,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2569,
+      "length": 8,
+      "value": "3600000"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2611,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2640,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2668,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2696,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2724,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2761,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2766,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2771,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2803,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2835,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2867,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2899,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2931,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2972,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3013,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3057,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3095,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3135,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3168,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3205,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
+      "kind": "StringLiteral",
+      "offset": 1065,
+      "length": 21,
+      "value": "\"ApSmartInterstitial\""
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1432,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1511,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1595,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1673,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1755,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1840,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1922,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2020,
+      "length": 1,
+      "value": "0"
+    },
     {
       "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Constants.swift",
       "kind": "StringLiteral",
@@ -2402,111 +2201,6 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Reporting\/ApSender.swift",
-      "kind": "StringLiteral",
-      "offset": 1025,
-      "length": 10,
-      "value": "\"ApSender\""
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Reporting\/Reporter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1031,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Reporting\/Reporter.swift",
-      "kind": "Dictionary",
-      "offset": 1084,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1564,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1569,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1603,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1608,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1613,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1648,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1652,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1657,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1662,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1667,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
-      "kind": "Dictionary",
-      "offset": 1933,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
-      "kind": "Dictionary",
-      "offset": 1978,
-      "length": 3,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/RemoteConfig\/RemoteConfigWorker.swift",
       "kind": "StringLiteral",
       "offset": 1049,
@@ -2528,172 +2222,46 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1888,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1922,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1951,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1982,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2014,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2047,
-      "length": 2,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2050,
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Reporting\/Reporter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1031,
       "length": 4,
-      "value": "1000"
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2083,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2085,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2122,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2124,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2160,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2162,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2200,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2240,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2242,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2245,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2274,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2277,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2280,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Reporting\/Reporter.swift",
       "kind": "Dictionary",
-      "offset": 2332,
+      "offset": 1084,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "Dictionary",
-      "offset": 2384,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
-      "kind": "Array",
-      "offset": 2429,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/UserDefault.swift",
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/RemoteConfig\/RemoteConfigBackup.swift",
       "kind": "StringLiteral",
-      "offset": 1808,
-      "length": 23,
-      "value": "\"APMobileSdkPlacements\""
+      "offset": 1192,
+      "length": 13,
+      "value": "\"APRC-Backup\""
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/PlacementObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1202,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/PlacementObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1239,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/PlacementObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1275,
+      "length": 4,
+      "value": "1500"
     },
     {
       "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/RewardedObject.swift",
@@ -2857,326 +2425,88 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/ApUserDefaults.swift",
-      "kind": "StringLiteral",
-      "offset": 1085,
-      "length": 23,
-      "value": "\"APMobileSdkPlacements\""
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
       "kind": "IntegerLiteral",
-      "offset": 2569,
-      "length": 8,
-      "value": "3600000"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2611,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2640,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2668,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2696,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2724,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2761,
+      "offset": 1564,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
       "kind": "IntegerLiteral",
-      "offset": 2766,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2771,
+      "offset": 1569,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2803,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2835,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2867,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2899,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2931,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
       "kind": "IntegerLiteral",
-      "offset": 2972,
-      "length": 1,
-      "value": "0"
+      "offset": 1603,
+      "length": 2,
+      "value": "30"
     },
     {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
       "kind": "IntegerLiteral",
-      "offset": 3013,
-      "length": 1,
-      "value": "0"
+      "offset": 1608,
+      "length": 2,
+      "value": "60"
     },
     {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
       "kind": "IntegerLiteral",
-      "offset": 3057,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3095,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3135,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3168,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ReportingConfigObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3205,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/RemoteConfig\/RemoteConfigBackup.swift",
-      "kind": "StringLiteral",
-      "offset": 1192,
-      "length": 13,
-      "value": "\"APRC-Backup\""
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Manager.swift",
-      "kind": "StringLiteral",
-      "offset": 1119,
-      "length": 12,
-      "value": "\"AP-Manager\""
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Manager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1378,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1022,
-      "length": 17,
-      "value": "\"ApSmartRewarded\""
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1534,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1648,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1746,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1839,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1932,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2032,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2132,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartRewardedAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2240,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
-      "kind": "StringLiteral",
-      "offset": 1065,
-      "length": 21,
-      "value": "\"ApSmartInterstitial\""
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1432,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1511,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1595,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1673,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1755,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1840,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1922,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/SmartAds\/SmartInterstitialAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2020,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/PlacementObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1202,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/PlacementObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1239,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/PlacementObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1275,
+      "offset": 1613,
       "length": 4,
-      "value": "1500"
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1648,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1652,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1657,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1662,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1667,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
+      "kind": "Dictionary",
+      "offset": 1933,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/ConfigObject.swift",
+      "kind": "Dictionary",
+      "offset": 1978,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Reporting\/ApLogger.swift",
@@ -3226,6 +2556,202 @@
       "offset": 1234,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/UserDefault.swift",
+      "kind": "StringLiteral",
+      "offset": 1808,
+      "length": 23,
+      "value": "\"APMobileSdkPlacements\""
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1888,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1922,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1951,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1982,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2014,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2047,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2050,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2083,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2085,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2122,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2124,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2160,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2162,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2200,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2240,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2242,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2245,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2274,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2277,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2280,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "Dictionary",
+      "offset": 2332,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "Dictionary",
+      "offset": 2384,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Objects\/InterstitialObject.swift",
+      "kind": "Array",
+      "offset": 2429,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Reporting\/ApSender.swift",
+      "kind": "StringLiteral",
+      "offset": 1025,
+      "length": 10,
+      "value": "\"ApSender\""
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/ApUserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 1085,
+      "length": 23,
+      "value": "\"APMobileSdkPlacements\""
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Manager.swift",
+      "kind": "StringLiteral",
+      "offset": 1119,
+      "length": 12,
+      "value": "\"AP-Manager\""
+    },
+    {
+      "filePath": "\/Users\/rishabhtripathi\/Documents\/iOSSDK\/Sources\/ApMobileSDK\/Manager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1378,
+      "length": 5,
+      "value": "false"
     }
   ]
 }

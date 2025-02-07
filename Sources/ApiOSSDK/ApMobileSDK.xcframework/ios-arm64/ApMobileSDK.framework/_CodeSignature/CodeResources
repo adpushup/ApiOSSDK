@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ApMobileSDK-Swift.h</key>
 		<data>
-		bm94zFc0Jk5epud6Ddkt9uoQj0g=
+		bnukSQojN8Z8SNAqZpHpqVi5C5E=
 		</data>
 		<key>Headers/ApMobileSDK.h</key>
 		<data>
@@ -18,23 +18,23 @@
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		7iA/8msSeHPOFOu/QR8M3yNHMg4=
+		w5F6RtXfIXTuStz/sJY9tvhZjRk=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		T++fRuhcxXSEmyVVlZZUm1tXpL8=
+		eUA7WgTqDtD/sT0+ZCelUbm8cYo=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Yj1Cmrh5bfJA9giDrd6hAUyC6WU=
+		PUt92CS6Vi0iJjp8eUyYO2oRkjE=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		T++fRuhcxXSEmyVVlZZUm1tXpL8=
+		eUA7WgTqDtD/sT0+ZCelUbm8cYo=
 		</data>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		S5ftUrbz3QH7gPjwhWrtH5G8MZE=
+		fC72A9nSU/O3ISgBDtJ9BSKF48Q=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -43,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NNdFahVPthSMEof8rYKk/AAxoAkDU9LWlVgKC9WNCWw=
+			Y3hmpRsbFA97IRtFYSlClWkMB/b8bQhUWPuNfJJiRfw=
 			</data>
 		</dict>
 		<key>Headers/ApMobileSDK.h</key>
@@ -57,35 +57,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ne/Ao6P9/EHPgaYymoX9/NwJdhWZ7NxD5fw9JHVw8Uk=
+			HS6AWBRKd2yBkLDSCXIM9Q4tkr6Jh76CAypXQyw0ZKk=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+ZUFcqC69YeZBRZ/PPE7j70JQW59iAKPqU6sqLfWDfs=
+			6fT/sbf7sqYX4OhzePLLUHJ1qKW1oZ33ZxNpRpi14Sg=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dTOHrCaqqrbDZVUIINMTjSysA/JoSEbURza161s+xj8=
+			QuBb6kTzlUWqPM8GAE7XpALU3VJP29v+V02y5YxAuuk=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+ZUFcqC69YeZBRZ/PPE7j70JQW59iAKPqU6sqLfWDfs=
+			6fT/sbf7sqYX4OhzePLLUHJ1qKW1oZ33ZxNpRpi14Sg=
 			</data>
 		</dict>
 		<key>Modules/ApMobileSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5gVhp/fjWYVULqEIJEZB71PfhQagxNqz2QsdV3I3FvU=
+			hpunTwn9F3o5xortGZk0OdCRn8QSjBNUaqHlDjkSiLY=
 			</data>
 		</dict>
 	</dict>
