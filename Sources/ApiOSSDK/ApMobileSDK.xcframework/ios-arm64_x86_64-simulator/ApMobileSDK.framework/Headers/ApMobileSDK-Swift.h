@@ -343,6 +343,7 @@ SWIFT_CLASS("_TtC11ApMobileSDK8ApAppSDK")
 @end
 
 
+/// Interstitial Ad Listener
 SWIFT_PROTOCOL("_TtP11ApMobileSDK22ApInterstitialListener_")
 @protocol ApInterstitialListener
 @optional
@@ -776,6 +777,7 @@ SWIFT_CLASS("_TtC11ApMobileSDK8ApAppSDK")
 @end
 
 
+/// Interstitial Ad Listener
 SWIFT_PROTOCOL("_TtP11ApMobileSDK22ApInterstitialListener_")
 @protocol ApInterstitialListener
 @optional
