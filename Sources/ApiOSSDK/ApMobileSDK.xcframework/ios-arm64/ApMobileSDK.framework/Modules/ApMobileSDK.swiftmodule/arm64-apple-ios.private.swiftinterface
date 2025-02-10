@@ -14,7 +14,15 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.lock
 import os
-public struct ApInitError {
+@_inheritsConvenienceInitializers @objc public class ApAppSDK : ObjectiveC.NSObject {
+  public static func initialise(id: Swift.String, apInitListener: (any ApMobileSDK.ApInitListener)?)
+  @objc public static func initialise(id: Swift.String)
+  @objc public static func showInterstitialAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apInterstitialListener: any ApMobileSDK.ApInterstitialListener)
+  @objc public static func showRewardedAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apRewardedListener: any ApMobileSDK.ApRewardedListener)
+  @objc public static func isRewardedAdReady(apPlacementID: Swift.String) -> Swift.Bool
+  @objc public static func resume()
+  @objc override dynamic public init()
+  @objc deinit
 }
 @objc public protocol ApInterstitialListener {
   @objc optional func onAdClicked()
@@ -38,6 +46,18 @@ public struct ApInitError {
   @objc override dynamic public init()
   @objc deinit
 }
+public protocol ApInitListener {
+  func onInitSuccess()
+  func onInitFailed(initError: ApMobileSDK.ApInitError)
+  func onWarning(initWarning: ApMobileSDK.ApInitError)
+}
+extension ApMobileSDK.ApInitListener {
+  public func onInitSuccess()
+  public func onInitFailed(initError: ApMobileSDK.ApInitError)
+  public func onWarning(initWarning: ApMobileSDK.ApInitError)
+}
+public struct ApInitError {
+}
 @objc public protocol ApRewardedListener {
   @objc optional func onAdClicked()
   @objc optional func onAdImpression()
@@ -60,24 +80,4 @@ public struct ApInitError {
   @objc public func onComplete()
   @objc override dynamic public init()
   @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class ApAppSDK : ObjectiveC.NSObject {
-  public static func initialise(id: Swift.String, apInitListener: (any ApMobileSDK.ApInitListener)?)
-  @objc public static func initialise(id: Swift.String)
-  @objc public static func showInterstitialAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apInterstitialListener: any ApMobileSDK.ApInterstitialListener)
-  @objc public static func showRewardedAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apRewardedListener: any ApMobileSDK.ApRewardedListener)
-  @objc public static func isRewardedAdReady(apPlacementID: Swift.String) -> Swift.Bool
-  @objc public static func resume()
-  @objc override dynamic public init()
-  @objc deinit
-}
-public protocol ApInitListener {
-  func onInitSuccess()
-  func onInitFailed(initError: ApMobileSDK.ApInitError)
-  func onWarning(initWarning: ApMobileSDK.ApInitError)
-}
-extension ApMobileSDK.ApInitListener {
-  public func onInitSuccess()
-  public func onInitFailed(initError: ApMobileSDK.ApInitError)
-  public func onWarning(initWarning: ApMobileSDK.ApInitError)
 }
