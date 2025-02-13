@@ -10,7 +10,6 @@
 // -scheme ApMobileSDK \
 // -destination "generic/platform=iOS" \
 // -archivePath "./build/iOS" \
-// -sdk iphoneos \
 // SKIP_INSTALL=NO
 
 // xcodebuild archive \
@@ -18,7 +17,6 @@
 // -scheme ApMobileSDK \
 // -destination "generic/platform=iOS Simulator" \
 // -archivePath "./build/iOSSimulator" \
-// -sdk iphonesimulator \
 // SKIP_INSTALL=NO
 
 // xcodebuild -create-xcframework \
