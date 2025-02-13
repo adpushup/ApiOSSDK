@@ -37,16 +37,6 @@ import os
   @objc override dynamic public init()
   @objc deinit
 }
-public protocol ApInitListener {
-  func onInitSuccess()
-  func onInitFailed(initError: ApMobileSDK.ApInitError)
-  func onWarning(initWarning: ApMobileSDK.ApInitError)
-}
-extension ApMobileSDK.ApInitListener {
-  public func onInitSuccess()
-  public func onInitFailed(initError: ApMobileSDK.ApInitError)
-  public func onWarning(initWarning: ApMobileSDK.ApInitError)
-}
 @_inheritsConvenienceInitializers @objc public class ApAppSDK : ObjectiveC.NSObject {
   public static func initialise(id: Swift.String, apInitListener: (any ApMobileSDK.ApInitListener)?)
   @objc public static func initialise(id: Swift.String)
@@ -56,6 +46,18 @@ extension ApMobileSDK.ApInitListener {
   @objc public static func resume()
   @objc override dynamic public init()
   @objc deinit
+}
+public struct ApInitError {
+}
+public protocol ApInitListener {
+  func onInitSuccess()
+  func onInitFailed(initError: ApMobileSDK.ApInitError)
+  func onWarning(initWarning: ApMobileSDK.ApInitError)
+}
+extension ApMobileSDK.ApInitListener {
+  public func onInitSuccess()
+  public func onInitFailed(initError: ApMobileSDK.ApInitError)
+  public func onWarning(initWarning: ApMobileSDK.ApInitError)
 }
 @objc public protocol ApInterstitialListener {
   @objc optional func onAdClicked()
@@ -78,6 +80,4 @@ extension ApMobileSDK.ApInitListener {
   @objc public func onComplete()
   @objc override dynamic public init()
   @objc deinit
-}
-public struct ApInitError {
 }
