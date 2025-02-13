@@ -14,6 +14,28 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.lock
 import os
+@objc public protocol ApInterstitialListener {
+  @objc optional func onAdClicked()
+  @objc optional func onAdImpression()
+  @objc optional func adPresented()
+  @objc optional func onAdNotLoadedYet()
+  @objc optional func onAdFailToPresent(withError error: any Swift.Error)
+  @objc func onComplete()
+  @objc optional func onError(code: Swift.Int, message: Swift.String)
+  @objc optional func onAdDismissed()
+}
+@objc @_inheritsConvenienceInitializers open class ApInterstitialAdListener : ObjectiveC.NSObject, ApMobileSDK.ApInterstitialListener {
+  @objc public func onAdClicked()
+  @objc public func onAdImpression()
+  @objc public func adPresented()
+  @objc public func onAdNotLoadedYet()
+  @objc public func onAdFailToPresent(withError error: any Swift.Error)
+  @objc public func onError(code: Swift.Int, message: Swift.String)
+  @objc public func onAdDismissed()
+  @objc public func onComplete()
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc public protocol ApRewardedListener {
   @objc optional func onAdClicked()
   @objc optional func onAdImpression()
@@ -37,16 +59,6 @@ import os
   @objc override dynamic public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class ApAppSDK : ObjectiveC.NSObject {
-  public static func initialise(id: Swift.String, apInitListener: (any ApMobileSDK.ApInitListener)?)
-  @objc public static func initialise(id: Swift.String)
-  @objc public static func showInterstitialAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apInterstitialListener: any ApMobileSDK.ApInterstitialListener)
-  @objc public static func showRewardedAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apRewardedListener: any ApMobileSDK.ApRewardedListener)
-  @objc public static func isRewardedAdReady(apPlacementID: Swift.String) -> Swift.Bool
-  @objc public static func resume()
-  @objc override dynamic public init()
-  @objc deinit
-}
 public protocol ApInitListener {
   func onInitSuccess()
   func onInitFailed(initError: ApMobileSDK.ApInitError)
@@ -57,27 +69,15 @@ extension ApMobileSDK.ApInitListener {
   public func onInitFailed(initError: ApMobileSDK.ApInitError)
   public func onWarning(initWarning: ApMobileSDK.ApInitError)
 }
-@objc public protocol ApInterstitialListener {
-  @objc optional func onAdClicked()
-  @objc optional func onAdImpression()
-  @objc optional func adPresented()
-  @objc optional func onAdNotLoadedYet()
-  @objc optional func onAdFailToPresent(withError error: any Swift.Error)
-  @objc func onComplete()
-  @objc optional func onError(code: Swift.Int, message: Swift.String)
-  @objc optional func onAdDismissed()
+public struct ApInitError {
 }
-@objc @_inheritsConvenienceInitializers open class ApInterstitialAdListener : ObjectiveC.NSObject, ApMobileSDK.ApInterstitialListener {
-  @objc public func onAdClicked()
-  @objc public func onAdImpression()
-  @objc public func adPresented()
-  @objc public func onAdNotLoadedYet()
-  @objc public func onAdFailToPresent(withError error: any Swift.Error)
-  @objc public func onError(code: Swift.Int, message: Swift.String)
-  @objc public func onAdDismissed()
-  @objc public func onComplete()
+@_inheritsConvenienceInitializers @objc public class ApAppSDK : ObjectiveC.NSObject {
+  public static func initialise(id: Swift.String, apInitListener: (any ApMobileSDK.ApInitListener)?)
+  @objc public static func initialise(id: Swift.String)
+  @objc public static func showInterstitialAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apInterstitialListener: any ApMobileSDK.ApInterstitialListener)
+  @objc public static func showRewardedAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apRewardedListener: any ApMobileSDK.ApRewardedListener)
+  @objc public static func isRewardedAdReady(apPlacementID: Swift.String) -> Swift.Bool
+  @objc public static func resume()
   @objc override dynamic public init()
   @objc deinit
-}
-public struct ApInitError {
 }
