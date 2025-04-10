@@ -11,7 +11,7 @@
 // -destination "generic/platform=iOS" \
 // -archivePath "./build/iOS" \
 // -sdk iphoneos \
-// SKIP_INSTALL=NO \
+// SKIP_INSTALL=NO
 
 // xcodebuild archive \
 // -workspace ApMobileSDK.xcworkspace \
@@ -19,7 +19,7 @@
 // -destination "generic/platform=iOS Simulator" \
 // -archivePath "./build/iOSSimulator" \
 // -sdk iphonesimulator \
-// SKIP_INSTALL=NO \
+// SKIP_INSTALL=NO
 
 // xcodebuild -create-xcframework \
 //     -framework "./build/iOS.xcarchive/Products/Library/Frameworks/ApMobileSDK.framework" \
