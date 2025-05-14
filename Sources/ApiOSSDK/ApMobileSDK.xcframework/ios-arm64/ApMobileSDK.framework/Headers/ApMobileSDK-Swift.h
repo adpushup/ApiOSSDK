@@ -341,6 +341,8 @@ SWIFT_CLASS("_TtC11ApMobileSDK19ApAppOpenAdListener")
 SWIFT_CLASS("_TtC11ApMobileSDK12ApAppOpenAds")
 @interface ApAppOpenAds : NSObject <GADFullScreenContentDelegate>
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)showAdWithApPlacementID:(NSString * _Nullable)apPlacementID apAppOpenListener:(id <ApAppOpenListener> _Nullable)apAppOpenListener;
+- (void)showAdWithApAppOpenListener:(id <ApAppOpenListener> _Nonnull)apAppOpenListener;
 - (void)adWillPresentFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
 - (void)adDidDismissFullScreenContent:(id <GADFullScreenPresentingAd> _Nonnull)ad;
 - (void)ad:(id <GADFullScreenPresentingAd> _Nonnull)ad didFailToPresentFullScreenContentWithError:(NSError * _Nonnull)error;
@@ -462,8 +464,10 @@ SWIFT_CLASS("_TtC11ApMobileSDK24ApInterstitialAdListener")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@protocol ApNativeListener;
 SWIFT_CLASS("_TtC11ApMobileSDK10ApNativeAd")
 @interface ApNativeAd : NSObject
+- (void)loadAdWithApPlacementId:(NSString * _Nonnull)apPlacementId viewController:(UIViewController * _Nonnull)viewController apNativeListener:(id <ApNativeListener> _Nonnull)apNativeListener;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -572,8 +576,13 @@ SWIFT_CLASS("_TtC11ApMobileSDK32ApRewardedInterstitialAdListener")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@protocol ApStoryDelegate;
+@class UIView;
 SWIFT_CLASS("_TtC11ApMobileSDK7ApStory")
 @interface ApStory : NSObject <GADNativeAdLoaderDelegate, GADVideoControllerDelegate>
+- (void)loadAdWithPlacementId:(NSString * _Nonnull)placementId swipeUpGestureEnabled:(BOOL)swipeUpGestureEnabled clickDismissEnabled:(BOOL)clickDismissEnabled delegate:(id <ApStoryDelegate> _Nonnull)delegate;
+- (UIView * _Nullable)getAd SWIFT_WARN_UNUSED_RESULT;
+- (void)destroy;
 - (void)adLoader:(GADAdLoader * _Nonnull)adLoader didReceiveNativeAd:(GADNativeAd * _Nonnull)nativeAd;
 - (void)adLoader:(GADAdLoader * _Nonnull)adLoader didFailToReceiveAdWithError:(NSError * _Nonnull)error;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
