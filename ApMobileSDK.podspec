@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ApMobileSDK"
-  spec.version      = "1.0.18"
+  spec.version      = "1.0.19"
   spec.summary      = "ApMobileSDK provides full screen ad formats such as Smart Rewarded and Smart Interstitial ads for the iOS apps"
   spec.description  = "ApMobileSDK is easy to implement SDK provides full screen ad formats such as Smart Rewarded and Smart Interstitial ads for the iOS apps."
   spec.homepage     = "https://github.com/adpushup/ApiOSSDK"
