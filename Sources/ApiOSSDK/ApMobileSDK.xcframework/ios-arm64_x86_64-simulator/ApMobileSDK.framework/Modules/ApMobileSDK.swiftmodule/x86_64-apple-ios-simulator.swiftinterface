@@ -14,6 +14,95 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.lock
 import os
+@_inheritsConvenienceInitializers @objc open class ApAppOpenAds : ObjectiveC.NSObject, GoogleMobileAds.GADFullScreenContentDelegate {
+  @objc override dynamic public init()
+  @objc public func showAd(apPlacementID: Swift.String?, apAppOpenListener: (any ApMobileSDK.ApAppOpenListener)?)
+  @objc public func showAd(apAppOpenListener: any ApMobileSDK.ApAppOpenListener)
+  @objc public func adWillPresentFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
+  @objc public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
+  @objc public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+  @objc deinit
+}
+@objc public protocol ApRewardedInterstitialListener {
+  @objc optional func onAdClicked()
+  @objc optional func onAdImpression()
+  @objc optional func onAdShowed()
+  @objc optional func onAdDismissed()
+  @objc optional func onAdNotLoadedYet()
+  @objc optional func onUserEarnedReward(type: Swift.String, amount: Swift.Int)
+  @objc func onComplete()
+  @objc optional func onError(code: Swift.Int, message: Swift.String)
+  @objc optional func onWarning(code: Swift.Int, message: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers open class ApRewardedInterstitialAdListener : ObjectiveC.NSObject, ApMobileSDK.ApRewardedInterstitialListener {
+  @objc public func onComplete()
+  @objc public func onAdClicked()
+  @objc public func onAdImpression()
+  @objc public func onAdShowed()
+  @objc public func onAdDismissed()
+  @objc public func onAdNotLoadedYet()
+  @objc public func onUserEarnedReward(type: Swift.String, amount: Swift.Int)
+  @objc public func onError(code: Swift.Int, message: Swift.String)
+  @objc public func onWarning(code: Swift.Int, message: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol ApNativeListener {
+  @objc func onNative(nativeAd: GoogleMobileAds.GADNativeAd)
+  @objc optional func onError(_ code: Swift.Int, _ message: Swift.String)
+  @objc optional func onAdClicked()
+  @objc optional func onAdDismissed()
+  @objc optional func onAdImpression()
+  @objc optional func onAdLoaded()
+  @objc optional func onAdPresented()
+  @objc optional func onWarning(_ code: Swift.Int, _ message: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers open class ApNativeAdListener : ObjectiveC.NSObject, ApMobileSDK.ApNativeListener {
+  @objc public func onNative(nativeAd: GoogleMobileAds.GADNativeAd)
+  @objc public func onError(_ code: Swift.Int, _ message: Swift.String)
+  @objc public func onAdClicked()
+  @objc public func onAdDismissed()
+  @objc public func onAdImpression()
+  @objc public func onAdLoaded()
+  @objc public func onAdPresented()
+  @objc public func onWarning(_ code: Swift.Int, _ message: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class ApAppSDK : ObjectiveC.NSObject {
+  public static func initialise(id: Swift.String, apInitListener: (any ApMobileSDK.ApInitListener)?)
+  @objc public static func initialise(id: Swift.String)
+  @objc public static func showInterstitialAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apInterstitialListener: any ApMobileSDK.ApInterstitialListener)
+  @objc public static func showRewardedAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apRewardedListener: any ApMobileSDK.ApRewardedListener)
+  @objc public static func showRewardedInterstitialAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apRewardedInterstitialListener: any ApMobileSDK.ApRewardedInterstitialListener)
+  @objc public static func isRewardedInterstitialAdReady(apPlacementID: Swift.String) -> Swift.Bool
+  @objc public static func isRewardedAdReady(apPlacementID: Swift.String) -> Swift.Bool
+  @objc public static func resume()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol ApStoryDelegate {
+  @objc func onComplete(_ success: Swift.Bool)
+  @objc optional func onError(_ code: Swift.Int, _ message: Swift.String)
+  @objc optional func onAdClicked()
+  @objc optional func onAdDismissed()
+  @objc optional func onAdImpression()
+  @objc optional func onAdLoaded()
+  @objc optional func onAdPresented()
+  @objc optional func onWarning(_ code: Swift.Int, _ message: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers open class ApStoryListener : ObjectiveC.NSObject, ApMobileSDK.ApStoryDelegate {
+  @objc public func onComplete(_ success: Swift.Bool)
+  @objc public func onError(_ code: Swift.Int, _ message: Swift.String)
+  @objc public func onAdClicked()
+  @objc public func onAdDismissed()
+  @objc public func onAdImpression()
+  @objc public func onAdLoaded()
+  @objc public func onAdPresented()
+  @objc public func onWarning(_ code: Swift.Int, _ message: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc public protocol ApRewardedListener {
   @objc optional func onAdClicked()
   @objc optional func onAdImpression()
@@ -31,53 +120,6 @@ import os
   public func adPresented()
   @objc public func onAdNotLoadedYet()
   public func onAdFailToPresent(withError error: any Swift.Error)
-  @objc public func onError(code: Swift.Int, message: Swift.String)
-  @objc public func onAdDismissed()
-  @objc public func onComplete()
-  @objc override dynamic public init()
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class ApAppOpenAds : ObjectiveC.NSObject, GoogleMobileAds.GADFullScreenContentDelegate {
-  @objc override dynamic public init()
-  @objc public func showAd(apPlacementID: Swift.String?, apAppOpenListener: (any ApMobileSDK.ApAppOpenListener)?)
-  @objc public func showAd(apAppOpenListener: any ApMobileSDK.ApAppOpenListener)
-  @objc public func adWillPresentFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
-  @objc public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
-  @objc public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class ApStory : ObjectiveC.NSObject, GoogleMobileAds.GADAdLoaderDelegate, GoogleMobileAds.GADNativeAdLoaderDelegate, GoogleMobileAds.GADVideoControllerDelegate {
-  @objc public func loadAd(placementId: Swift.String, swipeUpGestureEnabled: Swift.Bool, clickDismissEnabled: Swift.Bool, delegate: any ApMobileSDK.ApStoryDelegate)
-  @objc public func getAd() -> UIKit.UIView?
-  @objc public func destroy()
-  @objc public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didReceive nativeAd: GoogleMobileAds.GADNativeAd)
-  @objc public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didFailToReceiveAdWithError error: any Swift.Error)
-  @objc override dynamic public init()
-  @objc deinit
-}
-extension ApMobileSDK.ApStory : GoogleMobileAds.GADNativeAdDelegate {
-  @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.GADNativeAd)
-  @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.GADNativeAd)
-  @objc dynamic public func nativeAdWillPresentScreen(_ nativeAd: GoogleMobileAds.GADNativeAd)
-  @objc dynamic public func nativeAdWillDismissScreen(_ nativeAd: GoogleMobileAds.GADNativeAd)
-  @objc dynamic public func nativeAdDidRecordSwipeGestureClick(_ nativeAd: GoogleMobileAds.GADNativeAd)
-}
-@objc public protocol ApInterstitialListener {
-  @objc optional func onAdClicked()
-  @objc optional func onAdImpression()
-  @objc optional func adPresented()
-  @objc optional func onAdNotLoadedYet()
-  @objc optional func onAdFailToPresent(withError error: any Swift.Error)
-  @objc func onComplete()
-  @objc optional func onError(code: Swift.Int, message: Swift.String)
-  @objc optional func onAdDismissed()
-}
-@objc @_inheritsConvenienceInitializers open class ApInterstitialAdListener : ObjectiveC.NSObject, ApMobileSDK.ApInterstitialListener {
-  @objc public func onAdClicked()
-  @objc public func onAdImpression()
-  @objc public func adPresented()
-  @objc public func onAdNotLoadedYet()
-  @objc public func onAdFailToPresent(withError error: any Swift.Error)
   @objc public func onError(code: Swift.Int, message: Swift.String)
   @objc public func onAdDismissed()
   @objc public func onComplete()
@@ -104,15 +146,25 @@ extension ApMobileSDK.ApStory : GoogleMobileAds.GADNativeAdDelegate {
   @objc override dynamic public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class ApAppSDK : ObjectiveC.NSObject {
-  public static func initialise(id: Swift.String, apInitListener: (any ApMobileSDK.ApInitListener)?)
-  @objc public static func initialise(id: Swift.String)
-  @objc public static func showInterstitialAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apInterstitialListener: any ApMobileSDK.ApInterstitialListener)
-  @objc public static func showRewardedAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apRewardedListener: any ApMobileSDK.ApRewardedListener)
-  @objc public static func showRewardedInterstitialAd(viewController: UIKit.UIViewController, apPlacementID: Swift.String, apRewardedInterstitialListener: any ApMobileSDK.ApRewardedInterstitialListener)
-  @objc public static func isRewardedInterstitialAdReady(apPlacementID: Swift.String) -> Swift.Bool
-  @objc public static func isRewardedAdReady(apPlacementID: Swift.String) -> Swift.Bool
-  @objc public static func resume()
+@objc public protocol ApInterstitialListener {
+  @objc optional func onAdClicked()
+  @objc optional func onAdImpression()
+  @objc optional func adPresented()
+  @objc optional func onAdNotLoadedYet()
+  @objc optional func onAdFailToPresent(withError error: any Swift.Error)
+  @objc func onComplete()
+  @objc optional func onError(code: Swift.Int, message: Swift.String)
+  @objc optional func onAdDismissed()
+}
+@objc @_inheritsConvenienceInitializers open class ApInterstitialAdListener : ObjectiveC.NSObject, ApMobileSDK.ApInterstitialListener {
+  @objc public func onAdClicked()
+  @objc public func onAdImpression()
+  @objc public func adPresented()
+  @objc public func onAdNotLoadedYet()
+  @objc public func onAdFailToPresent(withError error: any Swift.Error)
+  @objc public func onError(code: Swift.Int, message: Swift.String)
+  @objc public func onAdDismissed()
+  @objc public func onComplete()
   @objc override dynamic public init()
   @objc deinit
 }
@@ -126,44 +178,49 @@ extension ApMobileSDK.ApInitListener {
   public func onInitFailed(initError: ApMobileSDK.ApInitError)
   public func onWarning(initWarning: ApMobileSDK.ApInitError)
 }
-public struct ApInitError {
-}
-@objc public protocol ApRewardedInterstitialListener {
-  @objc optional func onAdClicked()
-  @objc optional func onAdImpression()
-  @objc optional func onAdShowed()
-  @objc optional func onAdDismissed()
-  @objc optional func onAdNotLoadedYet()
-  @objc optional func onUserEarnedReward(type: Swift.String, amount: Swift.Int)
-  @objc func onComplete()
-  @objc optional func onError(code: Swift.Int, message: Swift.String)
-  @objc optional func onWarning(code: Swift.Int, message: Swift.String)
-}
-@objc @_inheritsConvenienceInitializers open class ApRewardedInterstitialAdListener : ObjectiveC.NSObject, ApMobileSDK.ApRewardedInterstitialListener {
-  @objc public func onComplete()
-  @objc public func onAdClicked()
-  @objc public func onAdImpression()
-  @objc public func onAdShowed()
-  @objc public func onAdDismissed()
-  @objc public func onAdNotLoadedYet()
-  @objc public func onUserEarnedReward(type: Swift.String, amount: Swift.Int)
-  @objc public func onError(code: Swift.Int, message: Swift.String)
-  @objc public func onWarning(code: Swift.Int, message: Swift.String)
+@_inheritsConvenienceInitializers @objc open class ApStory : ObjectiveC.NSObject, GoogleMobileAds.GADAdLoaderDelegate, GoogleMobileAds.GADNativeAdLoaderDelegate, GoogleMobileAds.GADVideoControllerDelegate {
+  @objc public func loadAd(placementId: Swift.String, swipeUpGestureEnabled: Swift.Bool, clickDismissEnabled: Swift.Bool, delegate: any ApMobileSDK.ApStoryDelegate)
+  @objc public func getAd() -> UIKit.UIView?
+  @objc public func destroy()
+  @objc public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didReceive nativeAd: GoogleMobileAds.GADNativeAd)
+  @objc public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didFailToReceiveAdWithError error: any Swift.Error)
   @objc override dynamic public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class ApNativeAd : ObjectiveC.NSObject {
-  @objc public func loadAd(apPlacementId: Swift.String, viewController: UIKit.UIViewController, apNativeListener: any ApMobileSDK.ApNativeListener)
-  @objc override dynamic public init()
-  @objc deinit
-}
-extension ApMobileSDK.ApNativeAd : GoogleMobileAds.GADNativeAdLoaderDelegate, GoogleMobileAds.GADNativeAdDelegate, GoogleMobileAds.GADAdLoaderDelegate {
-  @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didReceive nativeAd: GoogleMobileAds.GADNativeAd)
-  @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didFailToReceiveAdWithError error: any Swift.Error)
+extension ApMobileSDK.ApStory : GoogleMobileAds.GADNativeAdDelegate {
   @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.GADNativeAd)
   @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.GADNativeAd)
   @objc dynamic public func nativeAdWillPresentScreen(_ nativeAd: GoogleMobileAds.GADNativeAd)
   @objc dynamic public func nativeAdWillDismissScreen(_ nativeAd: GoogleMobileAds.GADNativeAd)
+  @objc dynamic public func nativeAdDidRecordSwipeGestureClick(_ nativeAd: GoogleMobileAds.GADNativeAd)
+}
+public struct ApInitError {
+}
+@_inheritsConvenienceInitializers @objc open class ApNativeAd : ObjectiveC.NSObject, GoogleMobileAds.GADNativeAdLoaderDelegate, GoogleMobileAds.GADNativeAdDelegate, GoogleMobileAds.GADAdLoaderDelegate {
+  @objc public func loadAd(apPlacementId: Swift.String, viewController: UIKit.UIViewController, apNativeListener: any ApMobileSDK.ApNativeListener)
+  @objc public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didReceive nativeAd: GoogleMobileAds.GADNativeAd)
+  @objc public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didFailToReceiveAdWithError error: any Swift.Error)
+  @objc public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.GADNativeAd)
+  @objc public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.GADNativeAd)
+  @objc public func nativeAdWillPresentScreen(_ nativeAd: GoogleMobileAds.GADNativeAd)
+  @objc public func nativeAdWillDismissScreen(_ nativeAd: GoogleMobileAds.GADNativeAd)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc open class ApBannerAd : ObjectiveC.NSObject, GoogleMobileAds.GADBannerViewDelegate {
+  public init(apPlacementId: Swift.String)
+  public var adView: GoogleMobileAds.GAMBannerView
+  public func getAdView() -> UIKit.UIView
+  public func loadAd(viewController: UIKit.UIViewController, adSize: GoogleMobileAds.GADAdSize, apBannerListener: any ApMobileSDK.ApBannerListener)
+  public func loadAd(viewController: UIKit.UIViewController, apBannerListener: any ApMobileSDK.ApBannerListener)
+  public func loadBannerAd()
+  @objc public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.GADBannerView)
+  @objc public func bannerView(_ bannerView: GoogleMobileAds.GADBannerView, didFailToReceiveAdWithError error: any Swift.Error)
+  @objc public func bannerViewDidRecordClick(_ bannerView: GoogleMobileAds.GADBannerView)
+  @objc public func bannerViewDidRecordImpression(_ bannerView: GoogleMobileAds.GADBannerView)
+  @objc public func bannerViewWillPresentScreen(_ bannerView: GoogleMobileAds.GADBannerView)
+  @objc public func bannerViewWillDismissScreen(_ bannerView: GoogleMobileAds.GADBannerView)
+  @objc deinit
 }
 @objc public protocol ApAppOpenListener {
   @objc optional func onAdClicked()
@@ -189,64 +246,5 @@ extension ApMobileSDK.ApNativeAd : GoogleMobileAds.GADNativeAdLoaderDelegate, Go
   @objc public func onAdDismissed()
   @objc public func onAdLoaded()
   @objc override dynamic public init()
-  @objc deinit
-}
-@objc public protocol ApNativeListener {
-  @objc func onNative(nativeAd: GoogleMobileAds.GADNativeAd)
-  @objc optional func onError(_ code: Swift.Int, _ message: Swift.String)
-  @objc optional func onAdClicked()
-  @objc optional func onAdDismissed()
-  @objc optional func onAdImpression()
-  @objc optional func onAdLoaded()
-  @objc optional func onAdPresented()
-  @objc optional func onWarning(_ code: Swift.Int, _ message: Swift.String)
-}
-@objc @_inheritsConvenienceInitializers open class ApNativeAdListener : ObjectiveC.NSObject, ApMobileSDK.ApNativeListener {
-  @objc public func onNative(nativeAd: GoogleMobileAds.GADNativeAd)
-  @objc public func onError(_ code: Swift.Int, _ message: Swift.String)
-  @objc public func onAdClicked()
-  @objc public func onAdDismissed()
-  @objc public func onAdImpression()
-  @objc public func onAdLoaded()
-  @objc public func onAdPresented()
-  @objc public func onWarning(_ code: Swift.Int, _ message: Swift.String)
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc public protocol ApStoryDelegate {
-  @objc func onComplete(_ success: Swift.Bool)
-  @objc optional func onError(_ code: Swift.Int, _ message: Swift.String)
-  @objc optional func onAdClicked()
-  @objc optional func onAdDismissed()
-  @objc optional func onAdImpression()
-  @objc optional func onAdLoaded()
-  @objc optional func onAdPresented()
-  @objc optional func onWarning(_ code: Swift.Int, _ message: Swift.String)
-}
-@objc @_inheritsConvenienceInitializers open class ApStoryListener : ObjectiveC.NSObject, ApMobileSDK.ApStoryDelegate {
-  @objc public func onComplete(_ success: Swift.Bool)
-  @objc public func onError(_ code: Swift.Int, _ message: Swift.String)
-  @objc public func onAdClicked()
-  @objc public func onAdDismissed()
-  @objc public func onAdImpression()
-  @objc public func onAdLoaded()
-  @objc public func onAdPresented()
-  @objc public func onWarning(_ code: Swift.Int, _ message: Swift.String)
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc open class ApBannerAd : ObjectiveC.NSObject, GoogleMobileAds.GADBannerViewDelegate {
-  public init(apPlacementId: Swift.String)
-  public var adView: GoogleMobileAds.GAMBannerView
-  public func getAdView() -> UIKit.UIView
-  public func loadAd(viewController: UIKit.UIViewController, adSize: GoogleMobileAds.GADAdSize, apBannerListener: any ApMobileSDK.ApBannerListener)
-  public func loadAd(viewController: UIKit.UIViewController, apBannerListener: any ApMobileSDK.ApBannerListener)
-  public func loadBannerAd()
-  @objc public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.GADBannerView)
-  @objc public func bannerView(_ bannerView: GoogleMobileAds.GADBannerView, didFailToReceiveAdWithError error: any Swift.Error)
-  @objc public func bannerViewDidRecordClick(_ bannerView: GoogleMobileAds.GADBannerView)
-  @objc public func bannerViewDidRecordImpression(_ bannerView: GoogleMobileAds.GADBannerView)
-  @objc public func bannerViewWillPresentScreen(_ bannerView: GoogleMobileAds.GADBannerView)
-  @objc public func bannerViewWillDismissScreen(_ bannerView: GoogleMobileAds.GADBannerView)
   @objc deinit
 }

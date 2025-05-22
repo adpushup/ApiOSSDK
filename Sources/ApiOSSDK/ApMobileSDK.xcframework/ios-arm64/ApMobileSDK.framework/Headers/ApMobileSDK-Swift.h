@@ -465,21 +465,18 @@ SWIFT_CLASS("_TtC11ApMobileSDK24ApInterstitialAdListener")
 @end
 
 @protocol ApNativeListener;
-SWIFT_CLASS("_TtC11ApMobileSDK10ApNativeAd")
-@interface ApNativeAd : NSObject
-- (void)loadAdWithApPlacementId:(NSString * _Nonnull)apPlacementId viewController:(UIViewController * _Nonnull)viewController apNativeListener:(id <ApNativeListener> _Nonnull)apNativeListener;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class GADAdLoader;
 @class GADNativeAd;
-@interface ApNativeAd (SWIFT_EXTENSION(ApMobileSDK)) <GADNativeAdDelegate, GADNativeAdLoaderDelegate>
+SWIFT_CLASS("_TtC11ApMobileSDK10ApNativeAd")
+@interface ApNativeAd : NSObject <GADNativeAdDelegate, GADNativeAdLoaderDelegate>
+- (void)loadAdWithApPlacementId:(NSString * _Nonnull)apPlacementId viewController:(UIViewController * _Nonnull)viewController apNativeListener:(id <ApNativeListener> _Nonnull)apNativeListener;
 - (void)adLoader:(GADAdLoader * _Nonnull)adLoader didReceiveNativeAd:(GADNativeAd * _Nonnull)nativeAd;
 - (void)adLoader:(GADAdLoader * _Nonnull)adLoader didFailToReceiveAdWithError:(NSError * _Nonnull)error;
 - (void)nativeAdDidRecordClick:(GADNativeAd * _Nonnull)nativeAd;
 - (void)nativeAdDidRecordImpression:(GADNativeAd * _Nonnull)nativeAd;
 - (void)nativeAdWillPresentScreen:(GADNativeAd * _Nonnull)nativeAd;
 - (void)nativeAdWillDismissScreen:(GADNativeAd * _Nonnull)nativeAd;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 SWIFT_PROTOCOL("_TtP11ApMobileSDK16ApNativeListener_")
