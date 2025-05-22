@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ApMobileSDK"
-  spec.version      = "1.0.17"
+  spec.version      = "1.0.18"
   spec.summary      = "ApMobileSDK provides full screen ad formats such as Smart Rewarded and Smart Interstitial ads for the iOS apps"
   spec.description  = "ApMobileSDK is easy to implement SDK provides full screen ad formats such as Smart Rewarded and Smart Interstitial ads for the iOS apps."
   spec.homepage     = "https://github.com/adpushup/ApiOSSDK"
@@ -14,5 +14,11 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "Sources/ApiOSSDK/ApMobileSDK.xcframework"
   spec.dependency 'Google-Mobile-Ads-SDK', '~> 11.0'
   spec.static_framework = false
+  spec.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  spec.user_target_xcconfig = { 
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' 
+  }
 
 end
