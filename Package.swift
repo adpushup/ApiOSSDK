@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ApiOSSDK",
+    name: "ApMobileSDK",
     platforms: [
         .iOS(.v14)
     ],
@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ApMobileSDK",
-            url: "https://github.com/adpushup/ApiOSSDK/releases/download/1.0.21/ApMobileSDK.xcframework.zip",
+            url: "https://github.com/adpushup/ApiOSSDK/releases/download/1.0.22/ApMobileSDK.xcframework.zip",
             checksum: "b6ef09b83dc1df35a955669f3818a245610d907eb07ebef756b9a3d53dc6c07f"
         ),
         .target(
@@ -25,7 +25,10 @@ let package = Package(
           dependencies: [.target(name: "ApMobileSDK"),
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads")
           ],
-          path: "Sources/ApiOSSDK"
+          path: "Sources/ApiOSSDK",
+          sources: ["placeholder.swift"],
+          resources: [],
+          publicHeadersPath: nil
         )
     ]
 )
