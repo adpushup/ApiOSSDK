@@ -396,10 +396,15 @@ SWIFT_CLASS("_TtC11ApMobileSDK8ApAppSDK")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIView;
+@protocol ApBannerListener;
 @class GADBannerView;
 SWIFT_CLASS("_TtC11ApMobileSDK10ApBannerAd")
 @interface ApBannerAd : NSObject <GADBannerViewDelegate>
 - (nonnull instancetype)initWithApPlacementId:(NSString * _Nonnull)apPlacementId OBJC_DESIGNATED_INITIALIZER;
+- (UIView * _Nonnull)getAdView SWIFT_WARN_UNUSED_RESULT;
+- (void)loadAdWithViewController:(UIViewController * _Nonnull)viewController adSize:(GADAdSize)adSize apBannerListener:(id <ApBannerListener> _Nonnull)apBannerListener;
+- (void)loadAdWithViewController:(UIViewController * _Nonnull)viewController apBannerListener:(id <ApBannerListener> _Nonnull)apBannerListener;
 - (void)bannerViewDidReceiveAd:(GADBannerView * _Nonnull)bannerView;
 - (void)bannerView:(GADBannerView * _Nonnull)bannerView didFailToReceiveAdWithError:(NSError * _Nonnull)error;
 - (void)bannerViewDidRecordClick:(GADBannerView * _Nonnull)bannerView;
@@ -622,7 +627,6 @@ SWIFT_CLASS("_TtC11ApMobileSDK17ApSDKInitListener")
 @end
 
 @protocol ApStoryDelegate;
-@class UIView;
 SWIFT_CLASS("_TtC11ApMobileSDK7ApStory")
 @interface ApStory : NSObject <GADNativeAdLoaderDelegate, GADVideoControllerDelegate>
 - (void)loadAdWithPlacementId:(NSString * _Nonnull)placementId swipeUpGestureEnabled:(BOOL)swipeUpGestureEnabled clickDismissEnabled:(BOOL)clickDismissEnabled delegate:(id <ApStoryDelegate> _Nonnull)delegate;
