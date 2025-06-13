@@ -13,5 +13,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
   spec.vendored_frameworks = "Sources/ApiOSSDK/ApMobileSDK.xcframework"
   spec.static_framework = false
+  spec.dependency 'Google-Mobile-Ads-SDK', '~> 11.13'
 
 end
