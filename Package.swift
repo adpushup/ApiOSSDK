@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ApMobileSDK",
-            url: "https://github.com/adpushup/ApiOSSDK/releases/download/1.0.2/ApMobileSDK.xcframework.zip",
-            checksum: "40514658657837b27caaa3c1df3a3f583ea91debafece3eafc664dcb170dc7cb"
+            url: "https://github.com/adpushup/ApiOSSDK/releases/download/1.0.3/ApMobileSDK.xcframework.zip",
+            checksum: "99a792fc53494228dbd8ee840fffa617a52787fcd32912205dc9cd1f9bc810ae"
         )
     ]
 )
