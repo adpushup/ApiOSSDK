@@ -13,12 +13,12 @@ let package = Package(
             targets: ["ApMobileSDK"]
         ),
     ],
-    dependencies: [.package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "11.0.0")],
+    dependencies: [.package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "11.13.0")],
     targets: [
         .binaryTarget(
             name: "ApMobileSDK",
-            url: "https://github.com/adpushup/ApiOSSDK/releases/download/1.0.3/ApMobileSDK.xcframework.zip",
-            checksum: "99a792fc53494228dbd8ee840fffa617a52787fcd32912205dc9cd1f9bc810ae"
+            url: "https://github.com/adpushup/ApiOSSDK/releases/download/1.0.4/ApMobileSDK.xcframework.zip",
+            checksum: "3a678a0d35f25194493b6b711f54c685725d259ed1ea5bec39e29a3f3ebbb575"
         )
     ]
 )
