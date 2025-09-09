@@ -17,8 +17,15 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ApMobileSDK",
-            url: "https://github.com/adpushup/ApiOSSDK/releases/download/1.0.4/ApMobileSDK.xcframework.zip",
+            url: "https://github.com/adpushup/ApiOSSDK/releases/download/1.0.5/ApMobileSDK.xcframework.zip",
             checksum: "3a678a0d35f25194493b6b711f54c685725d259ed1ea5bec39e29a3f3ebbb575"
+        ),
+        .target(
+            name: "ApiOSSDK",
+            dependencies: [
+                .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
+                "ApMobileSDK"
+            ]
         )
     ]
 )
